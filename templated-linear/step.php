@@ -1,7 +1,16 @@
 <?php
-
+	if (isset($_POST["submit"])){
+		if( $_POST["name"] == "0"){
+			header("location:step1.php");
+		}
+	}
 ?>
-
+<script language="javascript">
+		function ShowMeDate() {
+		　var Today=new Date();
+		　alert("還敢要提示阿 自己解");
+		}
+</script>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
 Design by TEMPLATED
@@ -36,10 +45,12 @@ Released   : 20140124
 		</div>
 		<div id="menu">
 			<ul>
-				<li class="current_page_item"><a href="%" accesskey="1" title="">人物介紹</a></li>
-				<li><a href="$" accesskey="2" title="">背包</a></li>
-				<li><a href="@" accesskey="3" title="">支線任務</a></li>
-				<li><a href="*" accesskey="4" title="">地圖</a></li>
+				<style3>
+					<li class="current_page_item"><a href="%" accesskey="1" title="">人物介紹</a></li>
+					<li><a href="$" accesskey="2" title="">背包</a></li>
+					<li><a href="@" accesskey="3" title="">支線任務</a></li>
+					<li><a href="*" accesskey="4" title="">地圖</a></li>
+			</style3>
 			</ul>
 		</div>
 	</div>
@@ -55,8 +66,7 @@ Released   : 20140124
 		<input type="submit" name="submit" value="確認"><br>
 		<br>
 		</form>
-		<p>故事
-		</p>
+					<a onClick="ShowMeDate()" class="button">提示</a> </div>
 	</div>
 </div>
 

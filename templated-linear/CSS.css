@@ -37,8 +37,10 @@ ol, ul
 
 p
 {
+	padding: 0em 10em;
 	line-height: 180%;	
-	font-family: ¡¥cwTeXKai¡¦, serif;
+	color: #000000;
+	font-family:Microsoft JhengHei;
 }
 
 strong
@@ -47,7 +49,7 @@ strong
 
 a
 {
-	color: #2C383B;
+	color: #FFF;
 }
 
 a:hover
@@ -90,6 +92,14 @@ input {
 	margin: 0px auto;
 	width: 1200px;
 }
+
+.container1
+{
+	font-size: 20px;
+	margin: 0 300 20 -600;
+	width: 1200px;
+}
+
 
 /*********************************************************************************/
 /* Image Style                                                                   */
@@ -249,7 +259,7 @@ ul.style3 a
 	display: inline-block;
 	margin-left: 1em;
 	font-size: 1em !important;
-	color: #FFF;
+	color: #555;
 }
 
 ul.style3 li:first-child
@@ -507,7 +517,7 @@ ul.contact li a.icon-rss:before
 
 	#header-featured
 	{
-		padding: 8em 100em;
+		padding: 8em 37em;
 		background-image: url(images/111.jpg);
 		background-position: left;
 		background-size: 1600px 1000px;
@@ -965,9 +975,13 @@ ul.contact li a.icon-rss:before
 
 #wel
 {
-	padding: 5em 0em;
+	padding: 5em 37.2em;
 	background: #E8E7C1;
 	text-align: center;
+}
+
+#wel p{
+	
 }
 
 #wel a
@@ -984,6 +998,7 @@ ul.contact li a.icon-rss:before
 
 #wel .button
 {
+	width: 100px;
 	margin-top: 2em;
 	background: #45543D;
 	color: #FFF;
@@ -991,7 +1006,7 @@ ul.contact li a.icon-rss:before
 
 #wel strong
 {
-	color: #FF0080;
+	color: #FFF;
 }
 
 #wel span
@@ -1000,5 +1015,5 @@ ul.contact li a.icon-rss:before
 	padding-top: 0.20em;
 	text-transform: uppercase;
 	font-size: 1.2em;
-	color: #FF0080;
+	color: #FFF;
 }
