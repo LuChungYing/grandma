@@ -23,8 +23,8 @@ Released   : 20140124
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link href="enter_game/CSS.css" rel="stylesheet" type="text/css" media="all" />
+<link href="enter_game/fonts.css" rel="stylesheet" type="text/css" media="all" />
 <link href="/css/phone.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 0px) and (max-width: 320px)" />
 <link href="/css/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 321px) and (max-width: 768px)" />
 <link href="/css/desktop.css" rel="stylesheet" type="text/css" />
