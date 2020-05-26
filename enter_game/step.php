@@ -1,8 +1,16 @@
 <?php
-
+	if (isset($_POST["submit"])){
+		if( $_POST["name"] == "0"){
+			header("location:step1.php");
+		}
+	}
 ?>
-
-<!-- Edit by Brian -->
+<script language="javascript">
+		function ShowMeDate() {
+		　var Today=new Date();
+		　alert("還敢要提示阿 自己解");
+		}
+</script>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
 Design by TEMPLATED
@@ -25,9 +33,7 @@ Released   : 20140124
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
 <link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
-<link href="/css/phone.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 0px) and (max-width: 320px)" />
-<link href="/css/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 321px) and (max-width: 768px)" />
-<link href="/css/desktop.css" rel="stylesheet" type="text/css" />
+
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
 </head>
@@ -39,10 +45,12 @@ Released   : 20140124
 		</div>
 		<div id="menu">
 			<ul>
-				<li class="current_page_item"><a href="%" accesskey="1" title="">人物介紹</a></li>
-				<li><a href="$" accesskey="2" title="">背包</a></li>
-				<li><a href="@" accesskey="3" title="">支線任務</a></li>
-				<li><a href="*" accesskey="4" title="">地圖</a></li>
+				<style3>
+					<li class="current_page_item"><a href="%" accesskey="1" title="">人物介紹</a></li>
+					<li><a href="$" accesskey="2" title="">背包</a></li>
+					<li><a href="@" accesskey="3" title="">支線任務</a></li>
+					<li><a href="*" accesskey="4" title="">地圖</a></li>
+			</style3>
 			</ul>
 		</div>
 	</div>
@@ -52,11 +60,14 @@ Released   : 20140124
 </div>
 <div id="wel">
 	<div class="container">
-<<<<<<< HEAD
-		<a href="templated-linear/before.php" class="button">進入遊戲</a> </div>
-=======
-		<a href="enter_game/before.php" class="button">進入遊戲</a> </div>
->>>>>>> d490aa475e5329a81b0c1ef68a277036bbc46414
+		<form method="POST">
+		<p>你的答案</p> <input name="name" type="text"><br>
+		<br>
+		<input type="submit" name="submit" value="確認"><br>
+		<br>
+		</form>
+					<a onClick="ShowMeDate()" class="button">提示</a> </div>
+	</div>
 </div>
 
 
