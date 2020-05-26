@@ -50,7 +50,7 @@ Released   : 20140124
 </div>
 <div id="wel">
 	<div class="container">
-		<a href="templated-linear/index.php" class="button">進入遊戲</a> </div>
+		<a href="templated-linear/before.php" class="button">進入遊戲</a> </div>
 </div>
 
 
