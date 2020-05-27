@@ -12,7 +12,7 @@ body
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 12pt;
 	font-weight: 300;
-	color: #FF0080
+	color: #000;
 }
 
 h1, h2, h3
@@ -151,7 +151,7 @@ input {
 	padding: 0em 0em 0em 0em;
 	overflow: hidden;
 	list-style: none;
-	color: #FF0080
+	color: #FFF
 }
 
 ul.style1 li
@@ -180,19 +180,19 @@ ul.style1 h3
 	text-transform: uppercase;
 	font-size: 1.2em;
 	font-weight: 600;
-	color: #FF0080;
+	color: #FFF;
 }
 
 ul.style1 a
 {
 	text-decoration: none;
-	color: #FF0080;
+	color: #FF080;
 }
 
 ul.style1 a:hover
 {
 	text-decoration: underline;
-	color: #FF0080;
+	color: #FFF;
 }
 
 ul.style2
@@ -270,7 +270,7 @@ ul.style3 li:first-child
 
 ul.style3 .icon
 {
-	color: #FF0080;
+	color: #FFF;
 }
 
 /*********************************************************************************/
@@ -390,7 +390,7 @@ ul.contact li a.icon-rss:before
 {
 	font-weight: 400;
 	font-size: 2.8em;
-	color: #FF0080;
+	color: #FFF;
 }
 
 .title .byline
@@ -433,7 +433,7 @@ ul.contact li a.icon-rss:before
 	font-size: 2.5em;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #FF0080;
+	color: #FFF;
 	padding-right: 0.50em;
 	border-right: 1px solid rgba(0,0,0,.1);
 }
@@ -455,7 +455,7 @@ ul.contact li a.icon-rss:before
 
 #logo .fa
 {
-	color: #FF0080;
+	color: #FFF;
 }
 
 #logo .fa:after
@@ -555,7 +555,7 @@ ul.contact li a.icon-rss:before
 
 #banner strong
 {
-	color: #FFF;
+	color: #000;
 }
 
 #banner span
@@ -564,7 +564,7 @@ ul.contact li a.icon-rss:before
 	padding-top: 0.20em;
 	text-transform: uppercase;
 	font-size: 1.2em;
-	color: #FF0080;
+	color: #FFF;
 }
 
 /*********************************************************************************/
@@ -621,7 +621,7 @@ ul.contact li a.icon-rss:before
 	text-transform: uppercase;
 	font-size: 1.2em;
 	font-weight: 600;
-	color: #FF0080;
+	color: #FFF;
 }
 
 #stwo-col .sbox1
@@ -700,7 +700,7 @@ ul.contact li a.icon-rss:before
 	width: 3em;
 	height: 2em;
 	font-size: 4em;
-	color: #FF0080;
+	color: #FFF;
 }
 
 .column1,  .column2,  .column3,  .column4
@@ -913,7 +913,7 @@ ul.contact li a.icon-rss:before
 	padding: 0em;
 	font-weight: 400;
 	font-size: 2.4em;
-	color: #FF0080;
+	color: #FFF;
 }
 
 #extra span
@@ -986,7 +986,7 @@ ul.contact li a.icon-rss:before
 
 #wel a
 {
-	color: #FFF;
+	color: #000;
 }
 
 #wel h2
@@ -1001,12 +1001,12 @@ ul.contact li a.icon-rss:before
 	width: 100px;
 	margin-top: 2em;
 	background: #45543D;
-	color: #FFF;
+	color: #000;
 }
 
 #wel strong
 {
-	color: #FFF;
+	color: #000;
 }
 
 #wel span
@@ -1015,5 +1015,5 @@ ul.contact li a.icon-rss:before
 	padding-top: 0.20em;
 	text-transform: uppercase;
 	font-size: 1.2em;
-	color: #FFF;
+	color: #000;
 }

@@ -8,7 +8,7 @@
 <script language="javascript">
 		function ShowMeDate() {
 		　var Today=new Date();
-		　alert("還敢要提示阿 自己解");
+		　alert("把代碼輸入到google map");
 		}
 </script>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -99,12 +99,15 @@ Released   : 20140124
 「既然有地圖，不如把這些代號輸進google地圖試試看？」<br>
 
 
-前鎮國小
-
+<br>
+代碼: H8P5+J9
 		</p>
-					<a onClick="ShowMeDate()" class="button">提示</a> </div>
+                    <a href="step1.php" class="button">進入遊戲</a>
+                    </div>
+
 	</div>
 </div>
+
 
 
 <div id="copyright" class="container">
