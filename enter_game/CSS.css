@@ -99,6 +99,11 @@ input {
 	margin: 0 300 20 -600;
 	width: 1200px;
 }
+.container2
+{
+    width:800px;
+    height:90px;
+}
 
 
 /*********************************************************************************/
@@ -523,6 +528,41 @@ ul.contact li a.icon-rss:before
 		background-size: 1600px 1000px;
 		border-bottom: 8px solid #45543D;
 	}
+#header1-featured
+    {
+        padding: 8em 1em;
+        background-image: url(images/backpack.png);
+        background-position: left;
+        background-size: 400px 350px;
+    }
+#header2-featured
+    {
+        padding: 8em 1em;
+        background-image: url(images/ticket.png);
+        background-position: left;
+        background-size: 400px 350px;                                                                                                                    
+    }
+#header3-featured
+    {
+        padding: 8em 1em;
+        background-image: url(images/bag.png);
+        background-position: left;
+        background-size: 400px 350px;                                                                                                                    
+    }
+#header4-featured
+    {
+        padding: 8em 1em;
+        background-image: url(images/cup.png);
+        background-position: left;
+        background-size: 400px 350px;                                                                                                                    
+    }
+#header5-featured
+    {
+        padding: 8em 1em;
+        background-image: url(images/ball.png);
+        background-position: left;
+        background-size: 400px 350px;                                                                                                                    
+    }
 
 
 #banner
@@ -978,6 +1018,17 @@ ul.contact li a.icon-rss:before
 	padding: 5em 37.2em;
 	background: #E8E7C1;
 	text-align: center;
+}
+#wel2
+{
+    padding: 1em 10em;
+    text-align: center;
+}
+#wel3
+{
+    padding: 5em 37.2em;
+    background: #E8E7C1;
+    text-align: left;
 }
 
 #wel p{

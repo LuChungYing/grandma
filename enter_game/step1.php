@@ -78,17 +78,35 @@ Released   : 20140124
     
 if (isset($_POST["submit"])){
         
-            if ($_POST["answer"] = "1953"){
-                printf("「對了，是1953年。阿嬤說遷校的密碼就是把校門口的海洋生物、壁畫的年輕人、幼                                                                               
+    if ($_POST["answer"] == "1953"){
+
+    echo "<html><body>";
+    echo "<div id=\"wel2\">
+    <div class=\"container2\">
+     「對了，是1953年。阿嬤說遷校的密碼就是把校門口的海洋生物、壁畫的年輕人、幼
 兒園招牌的小朋友三個相乘。」
 我自言自語著。回想當初和阿嬤一起走過回家的路，阿嬤有點粗糙的手，微微用力的
 牽著我，深怕我走丟的心情從掌心流露。
 「我已經多久沒牽阿嬤的手了呢？」
-我一邊心裡想著，一邊把第二個代碼輸進google地圖。\n
-H8P4+WH");
+我一邊心裡想著，一邊把第二個代碼輸進google地圖。
+H8P4+WH
+</div></div>
+";
+            echo "<div id=\"header1-featured\"> 
+                         <class=\"container2\"> 
+                  </div>";
+            echo "</body></html>";
 
+            $mysqli = mysqli_connect('localhost', 'root', '','grandma');
+            if (mysqli_connect_errno($mysqli))
+            {
+              echo "connect error " . mysqli_connect_error();
             }
-        }
+            $sql ="UPDATE props SET backpack = 1";
+            $result = mysqli_query($mysqli, $sql);
+            echo "成功放入背包";
+    }
+}
     ?>
 		</p>
                     <a onClick="ShowMeDate()" class="button">提示</a> 
