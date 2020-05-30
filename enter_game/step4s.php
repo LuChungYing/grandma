@@ -98,7 +98,7 @@ Released   : 20140124
     ;
 echo "
 <wel>
-<div class=\"container\" style = \"margin: 100 300 20 250\" >
+<div class=\"container\" style = \"margin: 150 300 20 250\" >
     <form method=\"post\">
 　      你算出來了嗎: <input type=\"test\" name=\"answer\">
         <input type=\"submit\" name=\"submit\" value=\"submit\">
@@ -129,7 +129,7 @@ if (isset($_POST["submit"])){
 
 </div></div>
 ";
-            echo "<div id=\"headerbag-featured\" style = \"margin: 0 300 100 -230;\; background-size: 750px 700px; width: 450px;\">
+            echo "<div id=\"headerbag-featured\" style = \"margin: 220 300 100 -230;\; background-size: 750px 700px; width: 450px;\">
                          <class=\"container2\" style = \"margin: 0 100 100 0;\" > 
                   </div>";
         echo "</p>                                                                                                                                             

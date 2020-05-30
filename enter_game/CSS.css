@@ -363,7 +363,7 @@ ul.contact li a.icon-rss:before
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 600;
-	color: #FFF;
+	color: #000;
 }
 
 .button:hover
@@ -569,6 +569,14 @@ ul.contact li a.icon-rss:before
         background-image: url(images/charm.png);
         background-position: left;
         background-size: 400px 350px;
+    }
+#headermap-featured                                                                                                          
+    {                                                                                                                     
+        padding: 8em 37em;
+        background-image: url(images/map);
+        background-position: left;
+        background-size: 1600px 1000px;
+        border-bottom: 8px solid #45543D;
     }
 
 
@@ -962,7 +970,7 @@ ul.contact li a.icon-rss:before
 	padding: 0em;
 	font-weight: 400;
 	font-size: 2.4em;
-	color: #FFF;
+	color: #000;
 }
 
 #extra span
@@ -1067,7 +1075,7 @@ ul.contact li a.icon-rss:before
 	width: 100px;
 	margin-top: 2em;
 	background: #45543D;
-	color: #000;
+	color: #FFF;
 }
 
 #wel strong
