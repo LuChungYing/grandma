@@ -1,13 +1,3 @@
-<?php
-            $mysqli = mysqli_connect('localhost', 'root', '','grandma');
-            if (mysqli_connect_errno($mysqli))
-            {
-              echo "connect error " . mysqli_connect_error();
-            }
-            $sql ="INSERT INTO props (cup, ball, bag, backpack, ticket) VALUES (0,0,0,0,0)";
-            $result = mysqli_query($mysqli, $sql);
-    
-?>
 <script language="javascript">
 		function ShowMeDate() {
 		　var Today=new Date();
