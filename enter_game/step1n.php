@@ -81,11 +81,92 @@ Released   : 20140124
 一時之間我也想不起來，只記得阿嬤教了我一個記憶的辦法，記得是…
 <br><br>
 <wel>
-<div class="container" style = "margin: 0 300 20 500" >
+<div class="container" style = "margin: 10 300 10 500" >
+</div>
+<?php
+    echo "<html><body>";
+    echo "<div id=\"wel2\">
+    <div class=\"container2\" style=\"color:red\" >
+   !!! 時間已經到了喔 你們錯失了拿到提示的大好機會 請進快解出答案!!!<br><br>
+    </div>
+    <div class=\"container2\">
+「阿嬤說遷校的密碼就是把校門口的海洋生物、壁畫的年輕人、幼
+兒園招牌的小朋友三個相乘。」<br><br>        
+</div></div>
+"
+    ;
+echo "
+<wel>
+<div class=\"container\" style = \"margin: 0 300 20 250\" >
+    <form method=\"post\">
+　      你算出來了嗎: <input type=\"test\" name=\"answer\">
+        <input type=\"submit\" name=\"submit\" value=\"submit\">
+    </form>
 
-    <a href="step1s.php" class="button">開始解謎</a>
-    
+</div>
+</div>";
+
+if (isset($_POST["submit"])){
+    if ($_POST["answer"] == "1953"){
+    echo "<html><body>";
+    echo "<div id=\"wel2\">
+    <div class=\"container2\" style = \"margin: 0 300 20 0; text-align: left\">
+&#9;我自言自語著。回想當初和阿嬤一起走過回家的路，阿嬤有點粗糙的手，微微用力的
+牽著我，深怕我走丟的心情從掌心流露。
+「我已經多久沒牽阿嬤的手了呢？」
+我一邊心裡想著，一邊把第二個代碼輸進google地圖。
+H8P4+WH
+</div></div>
+";
+        echo "<div id=\"header1-featured\" style = \"margin: 0 300 100 265;\; background-size: 750px 700px; width: 500px;\">
+                         <class=\"container2\" style = \"margin: 0 100 100 0;\" > 
+                  </div>";
+        echo "</p>                                                                                                                                             
+        <div class=\"container1\" style= \"margin: -200 300 20 -600  \">
+                    <a onClick=\"ShowMeDate()\" class=\"button\">提示</a> 
+                    <a href=\"step2.php\" class=\"button\">下一關!</a>
+        </div>
+        </div>
+";
+        echo "</body></html>";
+    }
+    else{
+        echo "<html><body>";
+    echo "<div id=\"wel2\">
+    <div class=\"container2\">
+「阿嬤說遷校的密碼就是把校門口的海洋生物、壁畫的年輕人、幼
+兒園招牌的小朋友三個相乘。
+」<br> 輸入錯誤！      
+</div></div>
+";
+echo "
+<wel>
+<div class=\"container\" style = \"margin: 100 300 200 250\" >
+    <form method=\"post\">
+　      你算出來了嗎: <input type=\"test\" name=\"answer\">
+        <input type=\"submit\" name=\"submit\" value=\"submit\">
+    </form>
+
+</div>
+</div>";
+
+    }
+}
+    ?>
+        </p>
+        <div class="container1" style= "margin: 0 300 0 -600  ">
+                    <a onClick="ShowMeDate()" class="button">提示</a> 
+                    <a href="step2.php" class="button">下一關!</a>
+        </div>
+        </div>
+
+	</div>
 </div>
 
+
+
+<div id="copyright" class="container">
+	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
 </body>
 </html>
