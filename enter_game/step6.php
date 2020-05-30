@@ -75,7 +75,7 @@ Released   : 20140124
 
 「當年我是從哪裡切西瓜的呢……？」<br><br>
 <wel>
-<div class="container" style = "margin: 0 300 20 500" >
+<div class="container" style = "margin: 0 300 20 20" >
 
     <a href="step6s.php" class="button">開始解謎</a>                                                                      
 </div>

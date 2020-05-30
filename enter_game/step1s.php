@@ -57,11 +57,11 @@ Released   : 20140124
 	<div id="banner" class="container"> </div>
 </div>
 <div id="wel">
-	<div class="container1" style = "text-align: left" >
+	<div class="container1" style = "text-align: center" >
 <wel>
 <?php
     echo"
-    <div class=\"container\" style = \"margin: 0 500 20 520\" >
+    <div class=\"container\" style = \"margin: 0 10 20 50\" >
     <span id=\"Check_Txt\" style=\"color:red\">倒數計時：
         <span id=\"Check_i\"> 0分0秒
         </span>
@@ -89,11 +89,10 @@ Released   : 20140124
 「阿嬤說遷校的密碼就是把校門口的海洋生物、壁畫的年輕人、幼
 兒園招牌的小朋友三個相乘。」        
 </div></div>
-"
-    ;
+";
 echo "
 <wel>
-<div class=\"container\" style = \"margin: 0 300 20 250\" >
+<div class=\"container\" style = \"margin: 0 10 20 5\" >
     <form method=\"post\">
 　      你算出來了嗎: <input type=\"test\" name=\"answer\">
         <input type=\"submit\" name=\"submit\" value=\"submit\">
@@ -130,7 +129,7 @@ if (isset($_POST["submit"])){
     else{
         echo "<html><body>";
     echo "<div id=\"wel2\">
-    <div class=\"container2\" style = \"margin: 0 300 20 -530\" >
+    <div class=\"container2\" style = \"margin: 0 10 20 -530\" >
 「阿嬤說遷校的密碼就是把校門口的海洋生物、壁畫的年輕人、幼
 兒園招牌的小朋友三個相乘。
 」<br> 輸入錯誤！      

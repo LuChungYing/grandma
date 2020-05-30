@@ -81,8 +81,7 @@ Released   : 20140124
 一時之間我也想不起來，只記得阿嬤教了我一個記憶的辦法，記得是…
 <br><br>
 <wel>
-<div class="container" style = "margin: 0 300 20 500" >
-
+<div class="container" style = "margin: 10 0 20 7;" >
     <a href="step1s.php" class="button">開始解謎</a>
     
 </div>

@@ -57,11 +57,11 @@ Released   : 20140124
 	<div id="banner" class="container"> </div>
 </div>
 <div id="wel">
-	<div class="container1" style = "text-align: left" >
+	<div class="container1" style = "text-align: center" >
 <wel>
 <?php
     echo"
-    <div class=\"container\" style = \"margin: 0 500 20 520\" >
+    <div class=\"container\" style = \"margin: 0 500 20 20\" >
     <span id=\"Check_Txt\" style=\"color:red\">倒數計時：
         <span id=\"Check_i\"> 0分0秒
         </span>
@@ -93,7 +93,7 @@ Released   : 20140124
     ;
 echo "
 <wel>
-<div class=\"container\" style = \"margin: 100 300 20 250\" >
+<div class=\"container\" style = \"margin: 100 300 20 20\" >
     <form method=\"post\">
 　      正確的順序是(神秘數字: 342561): <input type=\"test\" name=\"answer\">
         <input type=\"submit\" name=\"submit\" value=\"submit\">
