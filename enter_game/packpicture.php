@@ -51,19 +51,17 @@ Released   : 20140124
 <div id="header-featured">
 	<div id="banner" class="container"> </div>
 </div>
-<div id="wel">
+<div id="wel4">
 	<div class="container1">
-<?php
-   
+<?php 
     echo "<html><body>";
-    echo "<div id=\"wel\"><div class=\"container2\">";
+    echo "<div id=\"wel4\"><div class=\"container2\">";
     echo "<div id=\"header1-featured\"><class=\"container2\"></div></div></div>";
     echo "</body></html>";
 ?>
 
 	</div>
 </div>
-
 
 
 <div id="copyright" class="container">

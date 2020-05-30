@@ -39,9 +39,9 @@ Released   : 20140124
 		<div id="menu">
 			<ul>
 				<style3>
-					<li class="current_page_item"><a href="%" accesskey="1" title="">人物介紹</a></li>
-					<li><a href="$" accesskey="2" title="">背包</a></li>
-					<li><a href="@" accesskey="3" title="">支線任務</a></li>
+					<li class="current_page_item"><a href="people.php" accesskey="1" title="">人物介紹</a></li>
+					<li><a href="backpack.php" accesskey="2" title="">背包</a></li>
+					<li><a href="mission.php" accesskey="3" title="">支線任務</a></li>
 					<li><a href="map.php" accesskey="4" title="">地圖</a></li>
 			</style3>
 			</ul>
@@ -54,7 +54,7 @@ Released   : 20140124
 <div id="wel">
 	<div class="container1">
         <p>
-前鎮國小 <br>
+阿罵阿公孫子照片＆故事 <br>
 記得小時候，阿嬤都會來接我上下學，出門前，阿嬤總是再三提醒我：「孫仔，下課
 之後不可以亂跑，要在校門口乖乖等阿嬤喔。」
 雖然阿嬤這麼說，但貪玩的我怎麼可能聽話，總是在校門口跟河畔之間和同學追逐，
@@ -69,9 +69,10 @@ Released   : 20140124
 「就是在……年啊……」
 「阿嬤說的遷校年份是哪年去了？」
 一時之間我也想不起來，只記得阿嬤教了我一個記憶的辦法，記得是…
-我一邊心裡想著，一邊把第二個代碼輸進google地圖。<br>
-
-阿罵孫子的票價
+<br>
+   
+「阿嬤說遷校的密碼就是把校門口的海洋生物、壁畫的年輕人、幼
+兒園招牌的小朋友三個相乘。」<br>
     <form method="post">
 　      你算出來了嗎: <input type="test" name="answer">
         <input type="submit" name="submit" value="submit">
@@ -80,20 +81,37 @@ Released   : 20140124
     
 if (isset($_POST["submit"])){
         
-            if ($_POST["answer"] = "55"){
-                print("「對了，是1953年。阿嬤說遷校的密碼就是把校門口的海洋生物、壁畫的年輕人、幼                                                                               
-兒園招牌的小朋友三個相乘。」
+    if ($_POST["answer"] == "1953"){
+
+    echo "<html><body>";
+    echo "<div id=\"wel2\">
+    <div class=\"container2\">
 我自言自語著。回想當初和阿嬤一起走過回家的路，阿嬤有點粗糙的手，微微用力的
 牽著我，深怕我走丟的心情從掌心流露。
 「我已經多久沒牽阿嬤的手了呢？」
-我一邊心裡想著，一邊把第二個代碼輸進google地圖。");
+我一邊心裡想著，一邊把第二個代碼輸進google地圖。
+H8P4+WH
+</div></div>
+";
+            echo "<div id=\"header1-featured\"> 
+                         <class=\"container2\"> 
+                  </div>";
+            echo "</body></html>";
+
+            $mysqli = mysqli_connect('localhost', 'root', '','grandma');
+            if (mysqli_connect_errno($mysqli))
+            {
+              echo "connect error " . mysqli_connect_error();
             }
-            print("H8Q4+Q5");
-        }
+            $sql ="UPDATE props SET backpack = 1";
+            $result = mysqli_query($mysqli, $sql);
+            echo "成功放入背包";
+    }
+}
     ?>
 		</p>
                     <a onClick="ShowMeDate()" class="button">提示</a> 
-                    <a href="step3.php" class="button">下一關!</a>
+                    <a href="step2.php" class="button">下一關!</a>
         </div>
 
 	</div>

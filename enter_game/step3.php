@@ -54,7 +54,7 @@ Released   : 20140124
 <div id="wel">
 	<div class="container1">
         <p>
-前鎮國小 <br>
+鎮南宮 <br>
 記得小時候，阿嬤都會來接我上下學，出門前，阿嬤總是再三提醒我：「孫仔，下課
 之後不可以亂跑，要在校門口乖乖等阿嬤喔。」
 雖然阿嬤這麼說，但貪玩的我怎麼可能聽話，總是在校門口跟河畔之間和同學追逐，
@@ -70,6 +70,8 @@ Released   : 20140124
 「阿嬤說的遷校年份是哪年去了？」
 一時之間我也想不起來，只記得阿嬤教了我一個記憶的辦法，記得是…
 我一邊心裡想著，一邊把第二個代碼輸進google地圖。<br>
+
+
     <form method="post">
 　      你算出來了嗎: <input type="test" name="answer">
         <input type="submit" name="submit" value="submit">

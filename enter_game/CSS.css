@@ -533,7 +533,7 @@ ul.contact li a.icon-rss:before
         padding: 8em 1em;
         background-image: url(images/backpack.png);
         background-position: left;
-        background-size: 400px 350px;
+        background-size: 650px 600px;
     }
 #header2-featured
     {
@@ -1030,7 +1030,13 @@ ul.contact li a.icon-rss:before
     background: #E8E7C1;
     text-align: left;
 }
+#wel4
+{
+    padding: 0em 56em 10em 20em;
+    background: #E8E7C1;
+    text-align: left;
 
+}
 #wel p{
 	
 }
