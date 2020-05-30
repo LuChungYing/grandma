@@ -105,15 +105,15 @@ if (isset($_POST["submit"])){
     echo "<html><body>";
     echo "<div id=\"wel2\">
     <div class=\"container2\" style = \"margin: 10 300 20 -530; font-size: 1.2em;text-align: left\">
-小時候上了船，阿嬤總會帶我站在船的側邊，感受海風的吹拂，還有偶爾濺起的浪花。雖然很舒服，阿嬤還是會說：「要抓好護欄喔，不小心會掉進海裡的。」年輕的阿嬤對落海這件事有著不好的回憶，據說那時，有艘渡輪因為船艙破裂而翻船，船上載滿要到前鎮加工區上班的員工，無一倖免全部罹難。幸好阿嬤不在那艘船上。
+小時候上了船，阿嬤總會帶我站在船的側邊，感受海風的吹拂，還有偶爾濺起的浪花。雖然很舒服，阿嬤還是會說：「要抓好護欄喔，不小心會掉進海裡的。」<br><br>年輕的阿嬤對落海這件事有著不好的回憶，據說那時，有艘渡輪因為船艙破裂而翻船，船上載滿要到前鎮加工區上班的員工，無一倖免全部罹難。幸好阿嬤不在那艘船上。<br><br>
 
-「那時候中壇元帥然告訴我不要上船，我才沒有上去。」阿嬤從那件事之後，就成了中壇元帥很虔誠的信徒，而這又是另一個故事了。
+「那時候中壇元帥然告訴我不要上船，我才沒有上去。」阿嬤從那件事之後，就成了中壇元帥很虔誠的信徒，而這又是另一個故事了。<br><br>
 
 「我是不是還不夠認識自己的阿嬤呢？」一邊這麼想，我一邊把第三個代碼輸進了google地圖。
 
 </div></div>
 ";
-            echo "<div id=\"header2-featured\" style = \"margin: 0 300 100 -230;\; background-size: 750px 700px; width: 450px;\">
+            echo "<div id=\"header2-featured\" style = \"margin: 120 300 100 -230;\; background-size: 750px 700px; width: 450px;\">
                          <class=\"container2\" style = \"margin: 0 100 100 0;\" > 
                   </div>";
         echo "</p>                                                                                                                                             
@@ -127,11 +127,16 @@ if (isset($_POST["submit"])){
     }
     else{
         echo "<html><body>";
-    echo "<div id=\"wel2\">
-    <div class=\"container2\" style = \"margin: 0 300 20 -530\" >
-    阿嬤是成人，我雖然國小，但已經有145公分了。這樣我們兩個的票錢總共多少呢？
-<br> 輸入錯誤！      
-</div></div>
+    echo "
+    <div id=\"wel2\">
+        <div class=\"container2\" style = \"margin: 0 300 20 -530\" >
+            阿嬤是成人，我雖然國小，但已經有145公分了。這樣我們兩個的票錢總共多少呢？<br><br> 
+        </div>
+
+        <div class=\"container2\" style = \"font-size:4em;margin: 0 300 20 -530\" >
+            輸入錯誤！      
+        </div>
+    </div>
 ";
     }
 }
