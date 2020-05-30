@@ -542,27 +542,36 @@ ul.contact li a.icon-rss:before
         background-position: left;
         background-size: 400px 350px;                                                                                                                    
     }
-#header3-featured
+#headerbag-featured
     {
         padding: 8em 1em;
         background-image: url(images/bag.png);
         background-position: left;
         background-size: 400px 350px;                                                                                                                    
     }
-#header4-featured
+#headercup-featured
     {
         padding: 8em 1em;
         background-image: url(images/cup.png);
         background-position: left;
         background-size: 400px 350px;                                                                                                                    
     }
-#header5-featured
+#headerball-featured
     {
         padding: 8em 1em;
         background-image: url(images/ball.png);
         background-position: left;
         background-size: 400px 350px;                                                                                                                    
     }
+#headercharm-featured
+    {
+        padding: 8em 1em;
+        background-image: url(images/charm.png);
+        background-position: left;
+        background-size: 400px 350px;
+    }
+
+
 
 
 #banner

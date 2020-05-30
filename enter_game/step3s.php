@@ -121,7 +121,7 @@ if (isset($_POST["submit"])){
 
 </div></div>
 ";
-            echo "<div id=\"header2-featured\" style = \"margin: 500 300 100 -230;\; background-size: 750px 700px; width: 450px;\">
+            echo "<div id=\"headercharm-featured\" style = \"margin: 0 300 100 -230;\; background-size: 750px 700px; width: 450px;\">
                          <class=\"container2\" style = \"margin: 0 100 100 0;\" > 
                   </div>";
         echo "</p>                                                                                                                                             
