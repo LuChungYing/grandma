@@ -121,7 +121,7 @@ if (isset($_POST["submit"])){
 
 </div></div>
 ";
-            echo "<div id=\"headercharm-featured\" style = \"margin: 0 300 100 -230;\; background-size: 750px 700px; width: 450px;\">
+            echo "<div id=\"headercharm-featured\" style = \"margin: 450 300 100 -230;\; background-size: 750px 700px; width: 450px;\">
                          <class=\"container2\" style = \"margin: 0 100 100 0;\" > 
                   </div>";
         echo "</p>                                                                                                                                             
@@ -136,10 +136,9 @@ if (isset($_POST["submit"])){
     else{
         echo "<html><body>";
     echo "<div id=\"wel2\">
-    <div class=\"container2\" style = \"margin: 0 300 20 -530\" >
-    這一關還沒有想到題目，請在下方輸入\"俊穎好帥\"以過關:)
-<br> 輸入錯誤！      
-</div></div>
+            <div class=\"container2\" style = \"font-size:4em;margin: 0 300 20 -530\" >輸入錯誤！
+        </div>
+</div>
 ";
     }
 }
