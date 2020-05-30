@@ -65,7 +65,7 @@ Released   : 20140124
 
 「阿嬤信奉的是中壇元帥，而這邊是…」<br><br>
 
-<wel>
+</p>
 <div class="container" style = "margin: 0 300 20 0" >
 
     <a href="step3s.php" class="button">開始解謎</a>

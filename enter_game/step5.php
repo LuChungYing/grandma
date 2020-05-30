@@ -52,7 +52,8 @@ Released   : 20140124
 	<div id="banner" class="container"> </div>
 </div>
 <div id="wel">
-    <div class="container1" style = "margin: 0 300 20 -500" >
+    <div class="container1" >
+<p style="text-align:left">
 三天宮 <br><br>
 吃完甜點的我，在這折磨人的天氣得到一些安慰，趕緊向下個地點出發。 <br><br>
 
@@ -67,8 +68,7 @@ Released   : 20140124
 雖然後來擲筊的結果，三天宮不是在中央正位，阿嬤仍然很用心在廟裡的陳設上，尤其對聯更是請了大師發想，提升廟宇的莊嚴、神聖感。<br><br>
 
 「但是這對聯的順序是什麼…我怎麼記不太得了？只記得跟宮裡供奉的神明『三天 中壇元帥』有關……」<br><br>
-
-<wel>
+</p>
 <div class="container" style = "margin: 0 300 20 0" >
 
     <a href="step5s.php" class="button">開始解謎</a>                                                                      

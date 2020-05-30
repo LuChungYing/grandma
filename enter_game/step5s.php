@@ -95,18 +95,18 @@ echo "
 <wel>
 <div class=\"container\" style = \"margin: 100 300 20 250\" >
     <form method=\"post\">
-　      你算出來了嗎: <input type=\"test\" name=\"answer\">
+　      正確的順序是(神秘數字: 342561): <input type=\"test\" name=\"answer\">
         <input type=\"submit\" name=\"submit\" value=\"submit\">
     </form>
 
 </div>
 </div>";
 if (isset($_POST["submit"])){
-    if ($_POST["answer"] == "80"){
+    if ($_POST["answer"] == "342561"){
     echo "<html><body>";
     echo "<div id=\"wel2\">
     <div class=\"container2\" style = \"margin: 10 300 20 -530; font-size: 1.2em;text-align: left\">
-看著三間比鄰而居的廟宇，連香爐也是互相倚靠著。即使當初大家爭論不休，現在都已經雲淡風輕了。神明的事，果然還是要交給神明去處理。阿嬤說的那番話，確實發人深省。
+看著三間比鄰而居的廟宇，連香爐也是互相倚靠著。即使當初大家爭論不休，現在都已經雲淡風輕了。神明的事，果然還是要交給神明去處理。阿嬤說的那番話，確實發人深省。<br><br>
 
 「剩下沒幾個地方了，加緊腳步吧。」我確認了一下地圖，往下一個地點出發。
 
@@ -126,10 +126,10 @@ if (isset($_POST["submit"])){
         echo "</body></html>";
     }
     else{
+            echo "</p><div class=\"wel2\"><div class=\"container2\" style = \"font-size:4em;margin: 0 300 20 -530\" >輸入錯誤！</div></div>";
     }
 }
     ?>
-        </p>
         <div class="container1" style= "margin: 0 300 0 -600  ">
                     <a onClick="ShowMeDate()" class="button">提示</a> 
         </div>

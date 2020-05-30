@@ -1,7 +1,7 @@
 <script language="javascript">
 		function ShowMeDate() {
 		　var Today=new Date();
-		　alert("把代碼輸入到google map");
+		　alert("兩個字");
 		}
 </script>
 <script>
@@ -86,44 +86,43 @@ Released   : 20140124
     echo "<html><body>";
     echo "<div id=\"wel2\">
     <div class=\"container2\">
-「『三天 中壇元帥』似乎分別隱藏在對聯的同一個位置，只要排出來了，應該就知道對聯的真正順序了。」
-
+    找到圖片所對應的注音，並解析出該項物品為何？<br><br>
+   (神秘小提示: 七月二十一號，該項賽事將會重啟)
 </div></div>
-"
-    ;
+";
 echo "
 <wel>
 <div class=\"container\" style = \"margin: 100 300 20 250\" >
     <form method=\"post\">
-　      你算出來了嗎: <input type=\"test\" name=\"answer\">
+　      答案是: <input type=\"test\" name=\"answer\">
         <input type=\"submit\" name=\"submit\" value=\"submit\">
     </form>
 
 </div>
 </div>";
 if (isset($_POST["submit"])){
-    if ($_POST["answer"] == "80"){
+    if ($_POST["answer"] == "籃球"){
     echo "<html><body>";
     echo "<div id=\"wel2\">
     <div class=\"container2\" style = \"margin: 10 300 20 -530; font-size: 1.2em;text-align: left\">
-原來我那時候這麼想要籃球。後來我當然被阿嬤修理了一頓，想要的籃球也沒買到，衣服還髒得要命。真的是得不償失。
+原來我那時候這麼想要籃球。後來我當然被阿嬤修理了一頓，想要的籃球也沒買到，衣服還髒得要命。真的是得不償失。<br><br>
 
-「阿嬤，為什麼你剛剛說我是泥鰍啊？」回家的路上，我牽著阿媽的手問。
+「阿嬤，為什麼你剛剛說我是泥鰍啊？」回家的路上，我牽著阿媽的手問。<br><br>
 
-「因為以前這裡是一個大水池啊，那時候前鎮河還有一條分支流進來這邊喔。」
+「因為以前這裡是一個大水池啊，那時候前鎮河還有一條分支流進來這邊喔。」<br><br>
 
-「哇，那不就是一個超大游泳池了嗎？好酷喔～阿嬤再多說一點以前的故事給我聽～」
+「哇，那不就是一個超大游泳池了嗎？好酷喔～阿嬤再多說一點以前的故事給我聽～」<br><br>
 
-我想起那天和阿嬤追逐、挨阿嬤罵、邊說故事邊走回家的情景，顧不得旁邊還有一堆唱著卡拉ＯＫ的阿姨叔叔們，突然就哭了起來，而且越哭越大聲。
+我想起那天和阿嬤追逐、挨阿嬤罵、邊說故事邊走回家的情景，顧不得旁邊還有一堆唱著卡拉ＯＫ的阿姨叔叔們，突然就哭了起來，而且越哭越大聲。<br><br>
 
-「少年仔，你是怎麼了？怎麼哭成這樣？」
+「少年仔，你是怎麼了？怎麼哭成這樣？」<br><br>
 
 「我只是很想念阿嬤，想念那個以前健健康康，還會生氣罵人的阿嬤……」我哭得滿臉鼻涕眼淚，阿姨叔叔們只好帶我到旁邊的興仁國中稍微洗洗臉。
 
 
 </div></div>
 ";
-            echo "<div id=\"headerball-featured\" style = \"margin: 0 300 100 -230;\; background-size: 750px 700px; width: 450px;\">
+            echo "<div id=\"headerball-featured\" style = \"margin: 300 300 100 -230;\; background-size: 750px 700px; width: 450px;\">
                          <class=\"container2\" style = \"margin: 0 100 100 0;\" > 
                   </div>";
         echo "</p>                                                                                                                                             
@@ -136,6 +135,7 @@ if (isset($_POST["submit"])){
         echo "</body></html>";
     }
     else{
+            echo "</p> <div class=\"wel2\"><div class=\"container2\" style = \"font-size:4em;margin: 0 300 20 -530\" >輸入錯誤！</div></div>";
     }
 }
     ?>
