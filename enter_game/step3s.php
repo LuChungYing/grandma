@@ -85,7 +85,7 @@ Released   : 20140124
 </script>";
     echo "<html><body>";
     echo "<div id=\"wel2\">
-    <div class=\"container2\" style=\"text-align:left\">
+    <div class=\"container2\" >
     這一關還沒有想到題目，請在下方輸入\"俊穎好帥\"以過關:)
 </div></div>
 "
