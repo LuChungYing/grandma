@@ -85,10 +85,10 @@ Released   : 20140124
 </script>";
     echo "<html><body>";
     echo "<div id=\"wel2\">
-    <div class=\"container2\">
-「好，我們現在要去的菜市場的基地，以前是用煉鋁的廢土填成的，你知道鋁的原子序是多少嗎？」<br>                                                     
+    <div class=\"container2\" style=\"text-align:left\">
+「好，我們現在要去的菜市場的基地，以前是用煉鋁的廢土填成的，你知道鋁的原子序是多少嗎？」<br>     <br>
 
-「這好難欸，阿嬤我不會～」「阿嬤跟你說，跟菜市場有數字的招牌有關喔。」<br>
+「這好難欸，阿嬤我不會～」「阿嬤跟你說，跟菜市場有數字的招牌有關喔。」<br><br>
 
 「市場有兩個很大的招牌，一個是\"A\"香腸，另一個是\"B\"超市。首先用B減掉A的7倍，然後再減掉8，最後除以2，就會是答案了。」<br><br>
 
@@ -98,7 +98,7 @@ Released   : 20140124
     ;
 echo "
 <wel>
-<div class=\"container\" style = \"margin: 100 300 20 250\" >
+<div class=\"container\" style = \"margin: 200 300 20 250\" >
     <form method=\"post\">
 　      你算出來了嗎: <input type=\"test\" name=\"answer\">
         <input type=\"submit\" name=\"submit\" value=\"submit\">

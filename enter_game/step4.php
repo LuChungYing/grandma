@@ -53,7 +53,7 @@ Released   : 20140124
 </div>
 <div id="wel">
 	<div class="container1">
-        <p>
+        <p style="text-align:left">
 菜市場<br><br>
 原來是菜市場呀，小時候最喜歡來這裡了。」<br><br>
 
