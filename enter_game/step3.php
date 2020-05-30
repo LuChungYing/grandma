@@ -55,55 +55,21 @@ Released   : 20140124
 	<div class="container1">
         <p>
 鎮南宮 <br>
-記得小時候，阿嬤都會來接我上下學，出門前，阿嬤總是再三提醒我：「孫仔，下課
-之後不可以亂跑，要在校門口乖乖等阿嬤喔。」
-雖然阿嬤這麼說，但貪玩的我怎麼可能聽話，總是在校門口跟河畔之間和同學追逐，
-直到阿嬤的怒目出現在街角。
-被大罵一頓後，我一邊掉眼淚，一邊牽著阿嬤的手走在回家的路上。不知道是因為那
-時候還小，還是我們家真的很遠，我總覺得回家的路特別地長。這時，阿嬤就會說很
-多很多的故事。
-「孫仔，以前的小朋友沒有這麼漂亮的前鎮河可以看餒，是在阿嬤出生以前，學校才
-搬到這裡的。那時候有個很嚴重的颱風，把教室都吹毀了，所以才把學校搬來這裡
-。」
-「那是什麼時候呀，阿嬤？」
-「就是在……年啊……」
-「阿嬤說的遷校年份是哪年去了？」
-一時之間我也想不起來，只記得阿嬤教了我一個記憶的辦法，記得是…
-我一邊心裡想著，一邊把第二個代碼輸進google地圖。<br>
+「鎮南宮？這應該不是阿嬤平常會來的地方吧？」<br><br>
 
+前鎮鎮南宮在這裡算是數一數二大間的廟宇，早期的人為了討生活，總會離鄉背井，隻身來到前鎮來工作，在勞碌工作和生活壓力之下，信仰對於他們來說是很重要的心靈寄託。<br><br>
 
-    <form method="post">
-　      你算出來了嗎: <input type="test" name="answer">
-        <input type="submit" name="submit" value="submit">
-    </form>
-<?php
-    
-if (isset($_POST["submit"])){
-        
-            if ($_POST["answer"] = "1953"){
-                printf("「對了，是1953年。阿嬤說遷校的密碼就是把校門口的海洋生物、壁畫的年輕人、幼                                                                               
-兒園招牌的小朋友三個相乘。」
-我自言自語著。回想當初和阿嬤一起走過回家的路，阿嬤有點粗糙的手，微微用力的
-牽著我，深怕我走丟的心情從掌心流露。
-「我已經多久沒牽阿嬤的手了呢？」
-我一邊心裡想著，一邊把第二個代碼輸進google地圖。\n
-H8R4+9Q");
+「印象中鎮南宮的主委跟阿嬤很不合，似乎是為了誰家的神明比較靈驗鬧得很不愉快…」<br><br>
 
-            }
-        }
-    ?>
-		</p>
-                    <a onClick="ShowMeDate()" class="button">提示</a> 
-                    <a href="step4.php" class="button">下一關!</a>
-        </div>
+在我還不太懂事的時候，就記得無數次阿嬤帶著我來這邊和主委吵架，內容不外乎誰家神明比較靈驗、誰的信徒比較有聲望等等，這一吵就天翻地覆，都得吵到天黑才肯罷休。<br><br>
 
-	</div>
+「阿嬤信奉的是中壇元帥，而這邊是…」<br><br>
+
+<wel>
+<div class="container" style = "margin: 0 300 20 0" >
+
+    <a href="step3s.php" class="button">開始解謎</a>
 </div>
-
-
-
-<div id="copyright" class="container">
-	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
 </div>
 </body>
 </html>

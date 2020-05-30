@@ -54,39 +54,14 @@ Released   : 20140124
 <div id="wel">
 	<div class="container1">
         <p>
-興仁國中 <br> 補救題目: 歷史故事 
-    <form method="post">
-　      你算出來了嗎: <input type="test" name="answer">
-        <input type="submit" name="submit" value="submit">
-    </form>
-<?php
-    
-if (isset($_POST["submit"])){
-        
-            if ($_POST["answer"] = "1953"){
-                printf("「對了，是1953年。阿嬤說遷校的密碼就是把校門口的海洋生物、壁畫的年輕人、幼                                                                               
-兒園招牌的小朋友三個相乘。」
-我自言自語著。回想當初和阿嬤一起走過回家的路，阿嬤有點粗糙的手，微微用力的
-牽著我，深怕我走丟的心情從掌心流露。
-「我已經多久沒牽阿嬤的手了呢？」
-我一邊心裡想著，一邊把第二個代碼輸進google地圖。\n
-");
 
-            }
-        }
-    ?>
-		</p>
-                    <a onClick="ShowMeDate()" class="button">提示</a> 
-                    <a href="step7.php" class="button">下一關!</a>
-        </div>
+「興仁國中……我對這裡實在沒什麼印象……」洗完臉的我情緒回復了許多，感謝完叔叔阿姨的幫助之後，我仔細端詳了一下這裡。
 
-	</div>
-</div>
+興仁國中和興仁公園以前都是水池，興仁國中是台灣夾板公司的儲木池，興仁公園則是一片魚塭。當時這裡有一條前鎮河的支流，這條支流繞進現在的貨櫃場內，一直到新生路才成為盲段。這條支流對前鎮人而言有很大的經濟效益，可以圍塭養魚，也作為台灣夾板公司的儲木池。
 
+一邊慢慢走出校園，我一邊研究著這一路收集來的東西。「書包、護身符、玩具籃球……阿嬤要我去這些地方，到底要我做什麼呢？」
 
+突然，我發現船票裡的字有些怪怪的。「。這是什麼意思？」茄芷袋、筊杯上也都有奇怪的字，難道這才是阿嬤要我去這些地方的目的？
 
-<div id="copyright" class="container">
-	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
-</div>
 </body>
 </html>

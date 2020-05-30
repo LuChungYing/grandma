@@ -86,6 +86,6 @@ Released   : 20140124
     <a href="step1s.php" class="button">開始解謎</a>
     
 </div>
-
+</div>
 </body>
 </html>
