@@ -162,7 +162,6 @@ H8P4+WH
         </p>
         <div class="container1" style= "margin: 0 300 0 -600  ">
                     <a onClick="ShowMeDate()" class="button">提示</a> 
-                    <a href="step2.php" class="button">下一關!</a>
         </div>
         </div>
 
