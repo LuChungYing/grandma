@@ -61,18 +61,21 @@ Released   : 20140124
 <wel>
 <?php
     echo "<html><body>";
-    echo "<div id=\"wel2\">
+    echo "<div id=\"wel2\" style=\"height:800;width:500\">
     <div class=\"container2\" style=\"color:red\" >
    !!! 時間已經到了喔 你們錯失了拿到提示的大好機會 請進快解出答案!!!<br><br>
     </div>
     <div class=\"container2\">
     找到圖片所對應的注音，並解析出該項物品為何？<br><br>
-   (神秘小提示: 七月三十號，該項賽事將會重啟)
+   (神秘小提示: 七月三十號，該項賽事將會重啟)<br><br>
+
+    
+    <a href=\"map6.php\" class=\"button\">地圖</a><br><a href=\"p1.php\" class=\"button\">圖一</a><br><a href=\"p2.php\" class=\"button\">圖二</a><br><a href=\"p3.php\" class=\"button\">圖三</a><br><a href=\"p4.php\" class=\"button\">圖四</a><br><a href=\"p5.php\" class=\"button\">圖五</a><br>
 </div></div>
 ";
 echo "
 <wel>
-<div class=\"container\" style = \"margin: 100 300 20 20\" >
+<div class=\"container\" style = \"margin: 150 300 20 5\" >
     <form method=\"post\">
 　      答案是: <input type=\"test\" name=\"answer\">
         <input type=\"submit\" name=\"submit\" value=\"submit\">

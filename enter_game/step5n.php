@@ -69,20 +69,21 @@ Released   : 20140124
 「『三天 中壇元帥』似乎分別隱藏在對聯的同一個位置，只要排出來了，應該就知道對聯的真正順序了。」
 
 </div></div>
+1. □ 德昭彰揚清永卓漢旌旗<br><br>2. □ 通三界先鋒威赫耀天神<br><br>3. □ 佑黎民福蔭蓬萊消浩劫<br><br>4. □ 功浩蕩激濁長持周劍印<br><br>5. □ 蘇萬類恩沾前鎮錫鴻庥<br><br>6. □ 鎮五方元帥指揮嚴法令<br><br>註：旌(ㄐㄧㄥ)庥(ㄒㄧㄡ)
 "
     ;
 echo "
 <wel>
 <div class=\"container\" style = \"margin: 50 300 20 20\" >
     <form method=\"post\">
-　      正確的順序是(神秘數字: 342561): <input type=\"test\" name=\"answer\">
+　      正確的順序是: <input type=\"test\" name=\"answer\">
         <input type=\"submit\" name=\"submit\" value=\"submit\">
     </form>
 
 </div>
 </div>";
 if (isset($_POST["submit"])){
-    if ($_POST["answer"] == "342561"){
+    if ($_POST["answer"] == "356241"){
         $url  =  "step5y.php" ;
 		echo " <script language = 'javascript'
 			type = 'text/javascript'> ";
