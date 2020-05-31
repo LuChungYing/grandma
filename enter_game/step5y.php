@@ -39,9 +39,9 @@ Released   : 20140124
 		<div id="menu">
 			<ul>
 				<style3>
-					<li class="current_page_item"><a href="%" accesskey="1" title="">人物介紹</a></li>
-					<li><a href="$" accesskey="2" title="">背包</a></li>
-					<li><a href="@" accesskey="3" title="">支線任務</a></li>
+					<li class="current_page_item"><a href="people.php" accesskey="1" title="">人物介紹</a></li>
+					<li><a href="backpack.php" accesskey="2" title="">背包</a></li>
+					<li><a href="mission.php" accesskey="3" title="">支線任務</a></li>
 					<li><a href="map.php" accesskey="4" title="">地圖</a></li>
 			</style3>
 			</ul>
@@ -52,16 +52,34 @@ Released   : 20140124
 	<div id="banner" class="container"> </div>
 </div>
 <div id="wel">
-	<div class="container1">
-        <p style="text-align: left">
+	<div class="container1" style = "text-align: center" >
+<wel>
+    <html><body>
+    <div id="wel2">
+    <div class="container2" style = "margin: 10 300 20 30; font-size: 1.2em;text-align: left">
+看著三間比鄰而居的廟宇，連香爐也是互相倚靠著。即使當初大家爭論不休，現在都已經雲淡風輕了。神明的事，果然還是要交給神明去處理。阿嬤說的那番話，確實發人深省。<br><br>
 
-「興仁國中……我對這裡實在沒什麼印象……」洗完臉的我情緒回復了許多，感謝完叔叔阿姨的幫助之後，我仔細端詳了一下這裡。<br><br>
+「剩下沒幾個地方了，加緊腳步吧。」我確認了一下地圖，往下一個地點出發。
 
-興仁國中和興仁公園以前都是水池，興仁國中是台灣夾板公司的儲木池，興仁公園則是一片魚塭。當時這裡有一條前鎮河的支流，這條支流繞進現在的貨櫃場內，一直到新生路才成為盲段。這條支流對前鎮人而言有很大的經濟效益，可以圍塭養魚，也作為台灣夾板公司的儲木池。<br><br>
 
-一邊慢慢走出校園，我一邊研究著這一路收集來的東西。「書包、護身符、玩具籃球……阿嬤要我去這些地方，到底要我做什麼呢？」<br><br>
+</div></div>
+ 
+<div class="container2" style = "margi: 100 300 20 30; font-size: 1.2em;text-align: center">
+</div></div>
 
-突然，我發現船票裡的字有些怪怪的。「這是什麼意思？」茄芷袋、筊杯上也都有奇怪的字，難道這才是阿嬤要我去這些地方的目的？<br><br>
+        <div id="headercup-featured" style = "margin: 10 300 100 -350;\; background-size: 750px 700px; width: 450px;">
+<class="container2" style = "margin: 0 100 100 0;" > 
+        </div>
+ 
+        <div class="container1" style= "margin: -100 150 20 -700 ">
+                    <a href="step6.php" class="button">下一關!</a>
+        </div>
 
+</div>
+
+
+</div>
 </body>
 </html>
+
+       

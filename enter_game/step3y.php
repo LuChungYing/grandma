@@ -57,24 +57,31 @@ Released   : 20140124
     <html><body>
     <div id="wel2">
     <div class="container2" style = "margin: 10 300 20 30; font-size: 1.2em;text-align: left">
-我自言自語著。回想當初和阿嬤一起走過回家的路，阿嬤有點粗糙的手，微微用力的
-牽著我，深怕我走丟的心情從掌心流露。<br><br>
-「我已經多久沒牽阿嬤的手了呢？」<br><br>
-我一邊心裡想著，一邊把第二個代碼輸進google地圖。<br><br></div>
-<?php
-    ini_set("session.use_cookies", "1");
-    ini_set("session.use_only_cookies", "0");
-    ini_set("session.use_trans_sid", "1");
-    session_start();
-    $_SESSION["backpack"] = 1;
-?>
-<div class="container2" style = "margin: 100 300 20 30; font-size: 1.2em;text-align: center">
+「這裡主要供奉的是關聖帝君，又稱文衡聖帝。樓上佛祖殿則是供奉觀音佛祖。」一旁的阿姨跟我說。<br><br>
+
+「你是管區嬤的孫子吧？她最近還好嗎？」"管區嬤"是阿嬤上了年紀後，大家對她的暱稱。因為她就像個管區，前鎮的大小事幾乎都仰賴她的協助。<br><br>
+
+「妳是以前常常跟他吵架的主委！」我猛地認了出來，原來她還在這邊服務。「妳不是和她關係不好嗎？怎麼突然關心起她了？」<br><br>
+
+「那是後來的事啦，其實我們以前是情同姊妹的好朋友，但在我們兩個跟隨了不同的神明之後，關係就越來越差了，我心裡一直很想跟她和好，甚至準備了一個關聖帝君的護身符要給她，只是後來一直沒有機會開口，想來就覺得可惜呀。」<br><br>
+
+我簡單地和她說明了阿嬤現在的狀況，也告訴她我怎麼會突然來到這裡，她聽著聽著，表情也變得沒那麼輕鬆。<br><br>
+
+「沒想到那時人稱前鎮一抹紅的她竟然會淪落到這樣……護身符你就帶回去給她吧，一定要好好珍惜跟她相處的時光。」<br><br>
+
+我收下了主委阿姨的叮嚀，趕緊將下一個代號輸入google地圖。<br><br>
+
+</div>
+
+
+<div class="container2" style = "margin: -100 300 20 30; font-size: 1.2em;text-align: center">
 </div></div>
-            <div id="header1-featured" style = "margin: -100 300 100 150; background-size: 750px 700px; width: 500px;">
+
+<div id="headercharm-featured" style = "margin: 600 300 100 230;\; background-size: 750px 700px; width: 450px;">
                          <class="container2" style = "margin: 0 100 100 0;" > 
                   </div>
         <div class="container1" style= "margin: -50 150 20 -100 ">
-                    <a href="step2.php" class="button">下一關!</a>
+                    <a href="step4.php" class="button">下一關!</a>
         </div>
 
 </div>
@@ -83,3 +90,4 @@ Released   : 20140124
 </div>
 </body>
 </html>
+

@@ -57,24 +57,32 @@ Released   : 20140124
     <html><body>
     <div id="wel2">
     <div class="container2" style = "margin: 10 300 20 30; font-size: 1.2em;text-align: left">
-我自言自語著。回想當初和阿嬤一起走過回家的路，阿嬤有點粗糙的手，微微用力的
-牽著我，深怕我走丟的心情從掌心流露。<br><br>
-「我已經多久沒牽阿嬤的手了呢？」<br><br>
-我一邊心裡想著，一邊把第二個代碼輸進google地圖。<br><br></div>
-<?php
-    ini_set("session.use_cookies", "1");
-    ini_set("session.use_only_cookies", "0");
-    ini_set("session.use_trans_sid", "1");
-    session_start();
-    $_SESSION["backpack"] = 1;
-?>
+原來我那時候這麼想要籃球。後來我當然被阿嬤修理了一頓，想要的籃球也沒買到，衣服還髒得要命。真的是得不償失。<br><br>
+
+「阿嬤，為什麼你剛剛說我是泥鰍啊？」回家的路上，我牽著阿媽的手問。<br><br>
+
+「因為以前這裡是一個大水池啊，那時候前鎮河還有一條分支流進來這邊喔。」<br><br>
+
+「哇，那不就是一個超大游泳池了嗎？好酷喔～阿嬤再多說一點以前的故事給我聽～」<br><br>
+
+我想起那天和阿嬤追逐、挨阿嬤罵、邊說故事邊走回家的情景，顧不得旁邊還有一堆唱著卡拉ＯＫ的阿姨叔叔們，突然就哭了起來，而且越哭越大聲。<br><br>
+
+「少年仔，你是怎麼了？怎麼哭成這樣？」<br><br>
+
+「我只是很想念阿嬤，想念那個以前健健康康，還會生氣罵人的阿嬤……」我哭得滿臉鼻涕眼淚，阿姨叔叔們只好帶我到旁邊的興仁國中稍微洗洗臉。
+
+
+</div></div>
+
+
 <div class="container2" style = "margin: 100 300 20 30; font-size: 1.2em;text-align: center">
 </div></div>
-            <div id="header1-featured" style = "margin: -100 300 100 150; background-size: 750px 700px; width: 500px;">
+
+            <div id="headerball-featured" style = "margin: 300 300 100 -230;\; background-size: 750px 700px; width: 450px;">
                          <class="container2" style = "margin: 0 100 100 0;" > 
                   </div>
-        <div class="container1" style= "margin: -50 150 20 -100 ">
-                    <a href="step2.php" class="button">下一關!</a>
+        <div class="container1" style= "margin: -150 150 20 -650 ">
+                    <a href="step7.php" class="button">下一關!</a>
         </div>
 
 </div>
@@ -83,3 +91,4 @@ Released   : 20140124
 </div>
 </body>
 </html>
+

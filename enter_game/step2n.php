@@ -6,51 +6,9 @@
 </script>
 <script>
 function express(){
-location.href="step4n.php";
+location.href="step1n.php";
 }
-if (JSON && JSON.stringify && JSON.parse) var Session = Session || (function() {
-
-  // cache window 物件
-  var win = window.top || window;
-
-  // 將資料都存入 window.name 這個 property
-  var store = (win.name ? JSON.parse(win.name) : {});
-
-  // 將要存入的資料轉成 json 格式
-  function Save() {
-    win.name = JSON.stringify(store);
-  };
-
-  // 在頁面 unload 的時候將資料存入 window.name
-  if (window.addEventListener) window.addEventListener("unload", Save, false);
-  else if (window.attachEvent) window.attachEvent("onunload", Save);
-  else window.onunload = Save;
-
-  // public methods
-  return {
-
-    // 設定一個 session 變數
-    set: function(name, value) {
-      store[name] = value;
-    },
-
-    // 列出指定的 session 資料
-    get: function(name) {
-      return (store[name] ? store[name] : undefined);
-    },
-
-    // 清除資料 ( session )
-    clear: function() { store = {}; },
-
-    // 列出所有存入的資料
-    dump: function() { return JSON.stringify(store); }
-
-  };
-
- })();
 </script> 
-
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
 Design by TEMPLATED
@@ -103,45 +61,38 @@ Released   : 20140124
 <wel>
 <?php
     echo"
-    <div class=\"container\" style = \"margin: 0 10 20 50\" >
+    <div class=\"container\" style = \"margin: 0 500 20 20\" >
     <span id=\"Check_Txt\" style=\"color:red\">倒數計時：
         <span id=\"Check_i\"> 0分0秒
         </span>
         </span>
     </div>
-    <script type=\"text/javascript\">
+<script type=\"text/javascript\">
+    var SetMinute = 0;
     function Check_Time() {
-        var set = Session.get(\"M\")|| 0;
-        set += 1;
+        SetMinute += 1;
         var Check_i = document.getElementById(\"Check_i\");
-        var Cal_Minute = Math.floor(Math.floor(set % 3600) / 60);
-        var Cal_Second = set % 60;
-        if( Cal_Second > 50 ){
+
+        var Cal_Minute = Math.floor(Math.floor(SetMinute % 3600) / 60);
+        var Cal_Second = SetMinute % 60;
+        if( Cal_Minute > 5 ){
             express();
             return;
         }
-        Session.set(\"M\",set);
         Check_i.innerHTML =  + Cal_Minute + \"分\" + Cal_Second + \"秒\";
     }
     var mm = window.setInterval(\"Check_Time()\", 1000);
-    </script>";
- 
+</script>";
     echo "<html><body>";
     echo "<div id=\"wel2\">
-    <div class=\"container2\" style=\"text-align:left\">
-「好，我們現在要去的菜市場的基地，以前是用煉鋁的廢土填成的，你知道鋁的原子序是多少嗎？」<br>     <br>
-
-「這好難欸，阿嬤我不會～」「阿嬤跟你說，跟菜市場有數字的招牌有關喔。」<br><br>
-
-「市場有兩個很大的招牌，一個是\"A\"香腸，另一個是\"B\"超市。首先用B減掉A的7倍，然後再減掉8，最後除以2，就會是答案了。」<br><br>
-
-「阿嬤這好複雜……」「慢慢算，你一定可以的。」<br><br>
+    <div class=\"container2\">
+阿嬤是成人，我雖然國小，但已經有145公分了。這樣我們兩個的票錢總共多少呢？
 </div></div>
 "
     ;
 echo "
 <wel>
-<div class=\"container\" style = \"margin: 150 300 20 20\" >
+<div class=\"container\" style = \"margin: 0 30 20 20\" >
     <form method=\"post\">
 　      你算出來了嗎: <input type=\"test\" name=\"answer\">
         <input type=\"submit\" name=\"submit\" value=\"submit\">
@@ -150,22 +101,43 @@ echo "
 </div>
 </div>";
 if (isset($_POST["submit"])){
-    if ($_POST["answer"] == "13"){
-		$url  =  "step4y.php" ;
-		echo " <script language = 'javascript'
-			type = 'text/javascript'> ";
-		echo " window.location.href = '$url' ";
-		echo " </script> ";
-	 
+    if ($_POST["answer"] == "80"){
+    echo "<html><body>";
+    echo "<div id=\"wel2\">
+    <div class=\"container2\" style = \"margin: 10 300 20 -530; font-size: 1.2em;text-align: left\">
+小時候上了船，阿嬤總會帶我站在船的側邊，感受海風的吹拂，還有偶爾濺起的浪花。雖然很舒服，阿嬤還是會說：「要抓好護欄喔，不小心會掉進海裡的。」<br><br>年輕的阿嬤對落海這件事有著不好的回憶，據說那時，有艘渡輪因為船艙破裂而翻船，船上載滿要到前鎮加工區上班的員工，無一倖免全部罹難。幸好阿嬤不在那艘船上。<br><br>
+
+「那時候中壇元帥然告訴我不要上船，我才沒有上去。」阿嬤從那件事之後，就成了中壇元帥很虔誠的信徒，而這又是另一個故事了。<br><br>
+
+「我是不是還不夠認識自己的阿嬤呢？」一邊這麼想，我一邊把第三個代碼輸進了google地圖。
+
+</div></div>
+";
+            echo "<div id=\"header2-featured\" style = \"margin: 120 300 100 -230;\; background-size: 750px 700px; width: 450px;\">
+                         <class=\"container2\" style = \"margin: 0 100 100 0;\" > 
+                  </div>";
+        echo "</p>                                                                                                                                             
+        <div class=\"container1\" style= \"margin: -100 300 20 -600  \">
+                    <a onClick=\"ShowMeDate()\" class=\"button\">提示</a> 
+                    <a href=\"step3.php\" class=\"button\">下一關!</a>
+        </div>
+        </div>
+";
+        echo "</body></html>";
     }
     else{
-        echo "</p>         
-        <div class=\"wel2\">
-            <div class=\"container2\" style = \"font-size:4em;margin: 0 300 20 -530\" >
-                輸入錯誤！      
-            </div>
+        echo "<html><body>";
+    echo "
+    <div id=\"wel2\">
+        <div class=\"container2\" style = \"margin: 0 300 20 -530\" >
+            阿嬤是成人，我雖然國小，但已經有145公分了。這樣我們兩個的票錢總共多少呢？<br><br> 
         </div>
-    ";
+
+        <div class=\"container2\" style = \"font-size:4em;margin: 0 300 20 -530\" >
+            輸入錯誤！      
+        </div>
+    </div>
+";
     }
 }
     ?>

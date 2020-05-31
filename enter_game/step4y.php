@@ -57,29 +57,39 @@ Released   : 20140124
     <html><body>
     <div id="wel2">
     <div class="container2" style = "margin: 10 300 20 30; font-size: 1.2em;text-align: left">
-我自言自語著。回想當初和阿嬤一起走過回家的路，阿嬤有點粗糙的手，微微用力的
-牽著我，深怕我走丟的心情從掌心流露。<br><br>
-「我已經多久沒牽阿嬤的手了呢？」<br><br>
-我一邊心裡想著，一邊把第二個代碼輸進google地圖。<br><br></div>
-<?php
-    ini_set("session.use_cookies", "1");
-    ini_set("session.use_only_cookies", "0");
-    ini_set("session.use_trans_sid", "1");
-    session_start();
-    $_SESSION["backpack"] = 1;
-?>
-<div class="container2" style = "margin: 100 300 20 30; font-size: 1.2em;text-align: center">
+「對了，是13。阿嬤到底怎麼連元素週期都懂……」我自顧自地說著。<br><br>
+
+「這不是管區嬤的孫子嗎？管區嬤最近好不好呀？」出聲的是九九香腸的老闆兒子，他和我一樣，也算是半個北漂青年。當初在竹科工作，結果遇上金融風暴，被放了很久的無薪假，正好思考了一下關於家業這回事，於是就回來接老闆的衣缽了。<br><br>
+
+「好久不見了，蔡大哥，最近生意好嗎？」<br><br>
+
+「還是老樣子，普普通通啦。」<br><br>
+
+畢竟有著相似的經歷，年紀又差不多，我和蔡大哥一直都蠻有話聊的。我和他互相寒暄了一番，也順帶解釋了我突然回來的原因，他聽完之後，嘆了很深的一口氣。<br><br>
+
+「管區嬤和大家都是好朋友，只是她最近越來越少來這邊，大家也都很擔心她。你要幫我們好好照顧她，知道嗎？」<br><br>
+
+我聽著蔡大哥說的，心裡有些內疚。這幾年待在台北的我，疏忽了太多家人的狀況，也怠惰了家人互相照顧的職責，阿嬤現在的狀態，又讓我更多了一些自責感。<br><br>
+
+「蔡大哥，我還有事情，先走一步了。」簡單告別後，我匆匆離開了菜市場。
+</div>
+
+
+<div class="container2" style = "margin: 200 300 20 30; font-size: 1.2em;text-align: center">
 </div></div>
-            <div id="header1-featured" style = "margin: -100 300 100 150; background-size: 750px 700px; width: 500px;">
+
+        <div id="headerbag-featured" style = "margin: 500 300 100 150; background-size: 550px 550px; width: 450px;">
                          <class="container2" style = "margin: 0 100 100 0;" > 
                   </div>
-        <div class="container1" style= "margin: -50 150 20 -100 ">
-                    <a href="step2.php" class="button">下一關!</a>
-        </div>
 
-</div>
+        <div class="container1" style= "margin: -50 150 20 -100 ">
+                    <a href="step5.php" class="button">下一關!</a>
+        </div>
 
 
 </div>
 </body>
 </html>
+
+
+            
