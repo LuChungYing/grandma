@@ -94,27 +94,12 @@ echo "
 
 if (isset($_POST["submit"])){
     if ($_POST["answer"] == "1953"){
-    echo "<html><body>";
-    echo "<div id=\"wel2\">
-    <div class=\"container2\" style = \"margin: 10 300 20 -500; text-align: left\">
-&#9;我自言自語著。回想當初和阿嬤一起走過回家的路，阿嬤有點粗糙的手，微微用力的
-牽著我，深怕我走丟的心情從掌心流露。
-「我已經多久沒牽阿嬤的手了呢？」
-我一邊心裡想著，一邊把第二個代碼輸進google地圖。
-H8P4+WH
-</div></div>
-";
-        echo "<div id=\"header1-featured\" style = \"margin: 0 300 100 -350;\; background-size: 750px 700px; width: 500px;\">
-                         <class=\"container2\" style = \"margin: 0 100 100 0;\" > 
-                  </div>";
-        echo "</p>                                                                                                                                             
-        <div class=\"container1\" style= \"margin: 0 300 20 -600  \">
-                    <a onClick=\"ShowMeDate()\" class=\"button\">提示</a> 
-                    <a href=\"step2.php\" class=\"button\">下一關!</a>
-        </div>
-        </div>
-";
-        echo "</body></html>";
+		$url  =  "step1y.php" ;
+		echo " <script language = 'javascript'
+			type = 'text/javascript'> ";
+		echo " window.location.href = '$url' ";
+		echo " </script> ";
+	 
     }
     else{
         echo "<html><body>";
@@ -141,7 +126,6 @@ echo "
     ?>
         </p>
         <div class="container1" style= "margin: 0 300 0 -600  ">
-                    <a onClick="ShowMeDate()" class="button">提示</a> 
                     <a href="step2.php" class="button">下一關!</a>
         </div>
         </div>
