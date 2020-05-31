@@ -1,4 +1,4 @@
-<script language="javascript">                                                                                                                                                                              
+<script language="javascript">                                                                                                                                                                                                                                                                                                                                                 
         function ShowMeDate() {
         　var Today=new Date();
         　alert("把代碼輸入到google map");
@@ -30,7 +30,7 @@ Released   : 20140124
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
 </head>
-<body>                                                                                                                                                                                                      
+<body>
 <div id="header-wrapper">
     <div id="header" class="container">
         <div id="logo">
@@ -40,7 +40,7 @@ Released   : 20140124
             <ul>
                 <style3>
                     <li class="current_page_item"><a href="people.php" accesskey="1" title="">人物介紹</a></li>
-                    <li><a href="../backpack.php" accesskey="2" title="">背包</a></li>
+                    <li><a href="backpack.php" accesskey="2" title="">背包</a></li>
                     <li><a href="mission.php" accesskey="3" title="">支線任務</a></li>
                     <li><a href="map.php" accesskey="4" title="">地圖</a></li>
             </style3>
@@ -60,11 +60,10 @@ Released   : 20140124
     <div class="container2" style = "margin: 10 300 20 30; font-size: 1.2em;text-align: left">
 <div class="container2" style = "margin: 100 300 20 30; font-size: 1.2em;text-align: center">
 </div></div>
-            <div id="headerbag-featured" style = "margin: -500 300 100 150; background-size: 750px 700px; width: 600px; height: 600px;">
+            <div id="headermm-featured" style = "margin: -200 300 100 150; background-size: 750px 700px; width: 600px;">
                          <class="container2" style = "margin: 0 100 100 0;" >
                   </div>
 </div>
 </body>
-
-<body>
 </html>
+

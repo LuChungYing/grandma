@@ -60,7 +60,6 @@ Released   : 20140124
         session_start();   
         if( $_SESSION["backpack"] == "1")
             echo "<a href=\"inpack\packpicture.php\" class=\"button\">書包</a><br>";
-
         if ( $_SESSION["backpack"] == "2")
             echo "<a href=\"inpack\packpicturen.php\" class=\"button\">書包</a><br>";
         if( $_SESSION["s1"] == 1)
