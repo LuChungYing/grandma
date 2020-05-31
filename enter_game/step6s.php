@@ -132,11 +132,13 @@ Released   : 20140124
     </script>";
 
     echo "<html><body>";
-    echo "<div id=\"wel2\" style = \" height: 650;width:500\">
+    echo "<div id=\"wel2\" style = \" height: 800;width:500\">
     <div class=\"container2\">
     找到圖片所對應的注音，並解析出該項物品為何？<br><br>
 
    (神秘小提示: 七月三十號，該項賽事將會重啟)<br><br>
+    
+    <a href=\"map6.php\" class=\"button\">地圖</a><br>
     <a href=\"p1.php\" class=\"button\">圖一</a><br>
     <a href=\"p2.php\" class=\"button\">圖二</a><br>
     <a href=\"p3.php\" class=\"button\">圖三</a><br>

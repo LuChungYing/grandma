@@ -59,8 +59,8 @@ Released   : 20140124
     <div id="wel2">
 <div class="container2" style = "margin: 100 300 20 30; font-size: 1.2em;text-align: center">
 </div></div>
-            <div id="headerp2-featured" style = "margin: -320 300 100 20; background-size: 800px 600px; width: 0px; height: 270px;">
-                         <class="container2" style = "margin: 0 100 100 0;" >
+            <div id="headermap6-featured" style = "margin: -320 10 100 -10; width: 0.01; height: 250px;">
+                         <class="container2" style = "margin: 0 100 100 0; width: 40px;">
                   </div>
 </div>
 </body>
