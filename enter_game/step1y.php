@@ -99,80 +99,27 @@ Released   : 20140124
 <div id="wel">
 	<div class="container1" style = "text-align: center" >
 <wel>
-<?php
-    echo"
-    <div class=\"container\" style = \"margin: 0 10 20 50\" >
-    <span id=\"Check_Txt\" style=\"color:red\">倒數計時：
-        <span id=\"Check_i\"> 0分0秒
-        </span>
-        </span>
-    </div>
-    <script type=\"text/javascript\">
-    function Check_Time() {
-        var set = Session.get(\"M\")|| 0;
-        set += 1;
-        var Check_i = document.getElementById(\"Check_i\");
-        var Cal_Minute = Math.floor(Math.floor(set % 3600) / 60);
-        var Cal_Second = set % 60;
-        if( Cal_Second > 50 ){
-            express();
-            return;
-        }
-        Session.set(\"M\",set);
-        Check_i.innerHTML =  + Cal_Minute + \"分\" + Cal_Second + \"秒\";
-    }
-    var mm = window.setInterval(\"Check_Time()\", 1000);
-    </script>";
+    <html><body>
+    <div id="wel2">
+    <div class="container2" style = "margin: 10 300 20 30; font-size: 1.2em;text-align: left">
+我自言自語著。回想當初和阿嬤一起走過回家的路，阿嬤有點粗糙的手，微微用力的
+牽著我，深怕我走丟的心情從掌心流露。<br><br>
+「我已經多久沒牽阿嬤的手了呢？」<br><br>
+我一邊心裡想著，一邊把第二個代碼輸進google地圖。<br><br></div>
 
-    echo "<html><body>";
-    echo "<div id=\"wel2\">
-    <div class=\"container2\">
-「阿嬤說遷校的密碼就是把校門口的海洋生物、壁畫的年輕人、幼
-兒園招牌的小朋友三個相乘。」        
+<div class="container2" style = "margin: 100 300 20 30; font-size: 1.2em;text-align: center">
 </div></div>
-";
-echo "
-<wel>
-<div class=\"container\" style = \"margin: 0 10 20 5\" >
-    <form method=\"post\">
-　      你算出來了嗎: <input type=\"test\" name=\"answer\">
-        <input type=\"submit\" name=\"submit\" value=\"submit\">
-    </form>
 
-</div>
-</div>";
-if (isset($_POST["submit"])){
-    if ($_POST["answer"] == "1953"){
-
-$url  =  "http://140.117.178.49:20000/enter_game/step1y.php" ;
-echo " <script language = 'javascript'
-type = 'text/javascript'> ";
-echo " window.location.href = '$url' ";
-echo " </script> ";
-    }
-    else{
-        echo "<html><body>";
-    echo "<div id=\"wel2\">
-    <div class=\"container2\" style = \"margin: 0 10 20 -530\" >
-        <br> 輸入錯誤！      
-</div></div>
-";
-    }
-}
-    ?>
-        </p>
-        <div class="container1" style= "margin: 0 300 0 -600  ">
-                    <a onClick="ShowMeDate()" class="button">提示</a> 
-        </div>
+            <div id="header1-featured" style = "margin: -100 300 100 150; background-size: 750px 700px; width: 500px;">
+                         <class="container2" style = "margin: 0 100 100 0;" > 
+                  </div>
+        <div class="container1" style= "margin: -50 150 20 -100 ">
+                    <a href="step2.php" class="button">下一關!</a>
         </div>
 
-	</div>
 </div>
 
 
-
-<div id="copyright" class="container">
-	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
 </div>
 </body>
 </html>
