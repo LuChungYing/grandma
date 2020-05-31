@@ -70,6 +70,14 @@ Released   : 20140124
 
     <a href="step3s.php" class="button">開始解謎</a>
 </div>
+<?php
+        ini_set("session.use_cookies", "1");
+        ini_set("session.use_only_cookies", "0");
+        ini_set("session.use_trans_sid", "1");
+        session_start();
+        $_SESSION["s3"] =1;
+?>
+
 </div>
 </body>
 </html>

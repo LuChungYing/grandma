@@ -4,6 +4,25 @@
 		　alert("把代碼輸入到google map");
 		}
 </script>
+<?php
+        ini_set("session.use_cookies", "1");
+        ini_set("session.use_only_cookies", "0");
+        ini_set("session.use_trans_sid", "1");
+        session_start();
+        $_SESSION["backpack"] =0;
+        $_SESSION["s1"] = 0;
+        $_SESSION["ticket"] =0;
+        $_SESSION["s2"] = 0;
+        $_SESSION["charm"] = 0;
+        $_SESSION["s3"] = 0;
+        $_SESSION["cup"] = 0;
+        $_SESSION["s4"] = 0;
+        $_SESSION["bag"] = 0;
+        $_SESSION["s5"] = 0;
+        $_SESSION["ball"] = 0;
+        $_SESSION["s6"] = 0;
+    ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
 Design by TEMPLATED

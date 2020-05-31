@@ -73,17 +73,6 @@ Released   : 20140124
 <br><br>
 
 <wel>
-<div class="container" style = "margin: 0 300 20 0" >
-
-    <a href="step2s.php" class="button">開始解謎</a>
-</div>
-<?php
-        ini_set("session.use_cookies", "1");
-        ini_set("session.use_only_cookies", "0");
-        ini_set("session.use_trans_sid", "1");
-        session_start();
-        $_SESSION["s2"] =1;                                                                                               
-?>   
 
 
 </div>

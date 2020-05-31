@@ -81,15 +81,7 @@ Released   : 20140124
 一時之間我也想不起來，只記得阿嬤教了我一個記憶的辦法，記得是…
 <br><br>
 
-<div class="container" style = "margin: 10 100 20 520;" >
-    <a href="step1s.php" class="button">開始解謎</a>
-<?php
-        ini_set("session.use_cookies", "1");
-        ini_set("session.use_only_cookies", "0");
-        ini_set("session.use_trans_sid", "1");
-        session_start();
-        $_SESSION["s1"] =1;
-?>   
+    
 </div>
 </div>
 </body>

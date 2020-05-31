@@ -62,6 +62,14 @@ Released   : 20140124
 <div class="container" style = "margin: 10 300 10 500" >
 </div>
 <?php
+    ini_set("session.use_cookies", "1");
+    ini_set("session.use_only_cookies", "0");
+    ini_set("session.use_trans_sid", "1");
+    session_start();                                                                                                                                                                   
+    $_SESSION["backpack"] = 1;
+?>
+
+<?php
     echo "<html><body>";
     echo "<div id=\"wel2\">
     <div class=\"container2\" style=\"color:red\" >

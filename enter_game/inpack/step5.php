@@ -71,15 +71,6 @@ Released   : 20140124
 </p>
 <div class="container" style = "margin: 0 300 20 0" >
 
-    <a href="step5s.php" class="button">開始解謎</a>       
-<?php
-        ini_set("session.use_cookies", "1");
-        ini_set("session.use_only_cookies", "0");
-        ini_set("session.use_trans_sid", "1");
-        session_start();
-        $_SESSION["s5"] =1;                                                                                               
-?>   
-                                                               
 </div>
 </div>
 

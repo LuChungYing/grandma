@@ -24,7 +24,7 @@ Released   : 20140124
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-<link href="CSS.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../CSS.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
@@ -48,24 +48,21 @@ Released   : 20140124
 		</div>
 	</div>
 </div>
+</div>
 <div id="header-featured">
-	<div id="banner" class="container"> </div>
+    <div id="banner" class="container"> </div>
 </div>
-<div id="wel4">
-	<div class="container1">
-<?php 
-    echo "<html><body>";
-    echo "<div id=\"wel4\"><div class=\"container2\">";
-    echo "<div id=\"header1-featured\"><class=\"container2\"></div></div></div>";
-    echo "</body></html>";
-?>
-
-	</div>
-</div>
-
-
-<div id="copyright" class="container">
-	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+<div id="wel">
+    <div class="container1" style = "text-align: center" >                                                                                                                                                  
+<wel>
+    <html><body>
+    <div id="wel2">
+    <div class="container2" style = "margin: 10 300 20 30; font-size: 1.2em;text-align: left">
+<div class="container2" style = "margin: 100 300 20 30; font-size: 1.2em;text-align: center">
+</div></div>
+            <div id="headercharm-featured" style = "margin: -250 300 100 150; background-size: 750px 700px; width: 500px;">
+                         <class="container2" style = "margin: 0 100 100 0;" > 
+                  </div>
 </div>
 </body>
 </html>

@@ -144,7 +144,7 @@ echo "
 if (isset($_POST["submit"])){
     if ($_POST["answer"] == "1953"){
 
-$url  =  "http://140.117.178.49:20000/enter_game/step1y.php" ;
+$url  =  "step1y.php" ;
 echo " <script language = 'javascript'
 type = 'text/javascript'> ";
 echo " window.location.href = '$url' ";

@@ -53,43 +53,36 @@ Released   : 20140124
 </div>
 <div id="wel">
     <div class="container1">
-    <?php                                                                                                                                                    
-            $mysqli = mysqli_connect('localhost', 'root', '','grandma');
-            if (mysqli_connect_errno($mysqli))
-            {
-              echo "connect error " . mysqli_connect_error();
-            }
-            $sql ="SELECT * FROM props WHERE backpack = 1";
-            $result = mysqli_query($mysqli, $sql);
-            if (mysqli_num_rows($result))
-            {
-                    echo"<a href=\"packpicture.php\" class=\"button\">書包</a><br>";
-            }
-            $sql ="SELECT * FROM props WHERE ticket = 1";
-            $result = mysqli_query($mysqli, $sql);
-            if (mysqli_num_rows($result))
-            {
-                    echo "<a href=\"ticket.php\" class=\"button\">船票</a><br>";
-            }
-            $sql ="SELECT * FROM props WHERE cup = 1";
-            $result = mysqli_query($mysqli, $sql);
-            if (mysqli_num_rows($result))
-            {
-                    echo "<a href=\"cup.php\" class=\"button\">筊杯</a><br>";
-            }
-            $sql ="SELECT * FROM props WHERE bag = 1";
-            $result = mysqli_query($mysqli, $sql);
-            if (mysqli_num_rows($result))
-            {
-                    echo "<a href=\"bag.php\" class=\"button\">茄芷袋</a><br>";
-            }
-            $sql ="SELECT * FROM props WHERE ball = 1";
-            $result = mysqli_query($mysqli, $sql);
-            if (mysqli_num_rows($result))
-            {
-                    echo "<a href=\"ball.php\" class=\"button\">籃球</a><br>";
-            }
-?>
+<?php 
+        ini_set("session.use_cookies", "1");
+        ini_set("session.use_only_cookies", "0");
+        ini_set("session.use_trans_sid", "1");
+        session_start();
+        if( $_SESSION["backpack"] == 1)
+            echo "<a href=\"inpack\packpicture.php\" class=\"button\">書包</a><br>";
+        if( $_SESSION["s1"] == 1)
+            echo "<a href=\"inpack\step1.php\" class=\"button\">前鎮國小小故事</a><br>";
+        if( $_SESSION["ticket"] == 1)
+            echo "<a href=\"inpack\\ticket.php\" class=\"button\">船票</a><br>";
+        if( $_SESSION["s2"] == 1)
+            echo "<a href=\"inpack\step2.php\" class=\"button\">輪渡站小故事</a><br>";
+        if( $_SESSION["charm"] == 1)
+            echo "<a href=\"inpack\charm.php\" class=\"button\">平安符</a><br>";
+        if( $_SESSION["s3"] == 1)
+            echo "<a href=\"inpack\step3.php\" class=\"button\">鎮南宮小故事</a><br>";
+        if( $_SESSION["cup"] == 1)
+            echo "<a href=\"inpack\cup.php\" class=\"button\">筊杯</a><br>";
+        if( $_SESSION["s4"] == 1)
+            echo "<a href=\"inpack\step4.php\" class=\"button\">三天宮小故事</a><br>";
+        if( $_SESSION["bag"] == 1)
+            echo "<a href=\"inpack\bag.php\" class=\"button\">茄芷袋</a><br>";
+        if( $_SESSION["s5"] == 1)
+            echo "<a href=\"inpack\step5.php\" class=\"button\">菜市場小故事</a><br>";
+        if( $_SESSION["ball"] == 1)
+            echo "<a href=\"inpack\ball.php\" class=\"button\">籃球</a><br>";
+        if( $_SESSION["s6"] == 1)
+            echo "<a href=\"inpack\step6.php\" class=\"button\">興仁公園小故事</a><br>";
+    ?>
 
     </div>
 </div>

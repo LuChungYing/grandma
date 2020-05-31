@@ -75,18 +75,6 @@ Released   : 20140124
 
 「當年我是從哪裡切西瓜的呢……？」<br><br>
 <wel>
-<div class="container" style = "margin: 0 300 20 20" >
-
-    <a href="step6s.php" class="button">開始解謎</a>       
-<?php
-        ini_set("session.use_cookies", "1");
-        ini_set("session.use_only_cookies", "0");
-        ini_set("session.use_trans_sid", "1");
-        session_start();
-        $_SESSION["s6"] =1;                                                                                               
-?>   
-                                                               
-</div>
 </div>
 
 </body>
