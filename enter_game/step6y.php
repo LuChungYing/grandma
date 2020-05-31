@@ -1,14 +1,9 @@
 <script language="javascript">
 		function ShowMeDate() {
 		　var Today=new Date();
-		　alert("兩個字");
+		　alert("把代碼輸入到google map");
 		}
 </script>
-<script>
-function express(){
-location.href="step1n.php";
-}
-</script> 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
 Design by TEMPLATED
@@ -59,52 +54,9 @@ Released   : 20140124
 <div id="wel">
 	<div class="container1" style = "text-align: center" >
 <wel>
-<?php
-    echo"
-    <div class=\"container\" style = \"margin: 0 500 20 20\" >
-    <span id=\"Check_Txt\" style=\"color:red\">倒數計時：
-        <span id=\"Check_i\"> 0分0秒
-        </span>
-        </span>
-    </div>
-<script type=\"text/javascript\">
-    var SetMinute = 0;
-    function Check_Time() {
-        SetMinute += 1;
-        var Check_i = document.getElementById(\"Check_i\");
-
-        var Cal_Minute = Math.floor(Math.floor(SetMinute % 3600) / 60);
-        var Cal_Second = SetMinute % 60;
-        if( Cal_Minute > 5 ){
-            express();
-            return;
-        }
-        Check_i.innerHTML =  + Cal_Minute + \"分\" + Cal_Second + \"秒\";
-    }
-    var mm = window.setInterval(\"Check_Time()\", 1000);
-</script>";
-    echo "<html><body>";
-    echo "<div id=\"wel2\">
-    <div class=\"container2\">
-    找到圖片所對應的注音，並解析出該項物品為何？<br><br>
-   (神秘小提示: 七月三十號，該項賽事將會重啟)
-</div></div>
-";
-echo "
-<wel>
-<div class=\"container\" style = \"margin: 100 300 20 20\" >
-    <form method=\"post\">
-　      答案是: <input type=\"test\" name=\"answer\">
-        <input type=\"submit\" name=\"submit\" value=\"submit\">
-    </form>
-
-</div>
-</div>";
-if (isset($_POST["submit"])){
-    if ($_POST["answer"] == "籃球"){
-    echo "<html><body>";
-    echo "<div id=\"wel2\">
-    <div class=\"container2\" style = \"margin: 10 300 20 -530; font-size: 1.2em;text-align: left\">
+    <html><body>
+    <div id="wel2">
+    <div class="container2" style = "margin: 10 300 20 30; font-size: 1.2em;text-align: left">
 原來我那時候這麼想要籃球。後來我當然被阿嬤修理了一頓，想要的籃球也沒買到，衣服還髒得要命。真的是得不償失。<br><br>
 
 「阿嬤，為什麼你剛剛說我是泥鰍啊？」回家的路上，我牽著阿媽的手問。<br><br>
@@ -121,37 +73,22 @@ if (isset($_POST["submit"])){
 
 
 </div></div>
-";
-            echo "<div id=\"headerball-featured\" style = \"margin: 300 300 100 -230;\; background-size: 750px 700px; width: 450px;\">
-                         <class=\"container2\" style = \"margin: 0 100 100 0;\" > 
-                  </div>";
-        echo "</p>                                                                                                                                             
-        <div class=\"container1\" style= \"margin: -100 300 20 -600  \">
-                    <a onClick=\"ShowMeDate()\" class=\"button\">提示</a> 
-                    <a href=\"step7.php\" class=\"button\">下一關!</a>
-        </div>
-        </div>
-";
-        echo "</body></html>";
-    }
-    else{
-            echo "</p> <div class=\"wel2\"><div class=\"container2\" style = \"font-size:4em;margin: 0 300 20 -530\" >輸入錯誤！</div></div>";
-    }
-}
-    ?>
-        </p>
-        <div class="container1" style= "margin: 0 300 0 -600  ">
-                    <a onClick="ShowMeDate()" class="button">提示</a> 
-        </div>
+
+
+<div class="container2" style = "margin: 100 300 20 30; font-size: 1.2em;text-align: center">
+</div></div>
+
+            <div id="headerball-featured" style = "margin: 300 300 100 -230;\; background-size: 750px 700px; width: 450px;">
+                         <class="container2" style = "margin: 0 100 100 0;" > 
+                  </div>
+        <div class="container1" style= "margin: -150 150 20 -650 ">
+                    <a href="step7.php" class="button">下一關!</a>
         </div>
 
-	</div>
 </div>
 
 
-
-<div id="copyright" class="container">
-	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
 </div>
 </body>
 </html>
+
