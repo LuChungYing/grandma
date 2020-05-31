@@ -164,7 +164,7 @@ echo "
 </div>
 </div>";
 if (isset($_POST["submit"])){
-    if ($_POST["answer"] == "342561"){
+    if ($_POST["answer"] == "356241"){
     $_SESSION["cup"] = 1; 
 		$url  =  "step5y.php" ;
 		echo " <script language = 'javascript'
