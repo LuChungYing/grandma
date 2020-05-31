@@ -6,9 +6,50 @@
 </script>
 <script>
 function express(){
-location.href="step1n.php";
+location.href="step5n.php";
 }
+if (JSON && JSON.stringify && JSON.parse) var Session = Session || (function() {
+
+  // cache window 物件
+  var win = window.top || window;
+
+  // 將資料都存入 window.name 這個 property
+  var store = (win.name ? JSON.parse(win.name) : {});
+
+  // 將要存入的資料轉成 json 格式
+  function Save() {
+    win.name = JSON.stringify(store);
+  };
+
+  // 在頁面 unload 的時候將資料存入 window.name
+  if (window.addEventListener) window.addEventListener("unload", Save, false);
+  else if (window.attachEvent) window.attachEvent("onunload", Save);
+  else window.onunload = Save;
+
+  // public methods
+  return {
+
+    // 設定一個 session 變數
+    set: function(name, value) {
+      store[name] = value;
+    },
+
+    // 列出指定的 session 資料
+    get: function(name) {
+      return (store[name] ? store[name] : undefined);
+    },
+
+    // 清除資料 ( session )
+    clear: function() { store = {}; },
+
+    // 列出所有存入的資料
+    dump: function() { return JSON.stringify(store); }
+
+  };
+
+ })();
 </script> 
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
 Design by TEMPLATED
@@ -61,28 +102,29 @@ Released   : 20140124
 <wel>
 <?php
     echo"
-    <div class=\"container\" style = \"margin: 0 500 20 20\" >
+    <div class=\"container\" style = \"margin: 0 10 20 50\" >
     <span id=\"Check_Txt\" style=\"color:red\">倒數計時：
         <span id=\"Check_i\"> 0分0秒
         </span>
         </span>
     </div>
-<script type=\"text/javascript\">
-    var SetMinute = 0;
+    <script type=\"text/javascript\">
     function Check_Time() {
-        SetMinute += 1;
+        var set = Session.get(\"M\")|| 0;
+        set += 1;
         var Check_i = document.getElementById(\"Check_i\");
-
-        var Cal_Minute = Math.floor(Math.floor(SetMinute % 3600) / 60);
-        var Cal_Second = SetMinute % 60;
-        if( Cal_Minute > 5 ){
+        var Cal_Minute = Math.floor(Math.floor(set % 3600) / 60);
+        var Cal_Second = set % 60;
+        if( Cal_Second > 50 ){
             express();
             return;
         }
+        Session.set(\"M\",set);
         Check_i.innerHTML =  + Cal_Minute + \"分\" + Cal_Second + \"秒\";
     }
     var mm = window.setInterval(\"Check_Time()\", 1000);
-</script>";
+    </script>";
+
     echo "<html><body>";
     echo "<div id=\"wel2\">
     <div class=\"container2\">
@@ -103,27 +145,12 @@ echo "
 </div>";
 if (isset($_POST["submit"])){
     if ($_POST["answer"] == "342561"){
-    echo "<html><body>";
-    echo "<div id=\"wel2\">
-    <div class=\"container2\" style = \"margin: 10 300 20 -530; font-size: 1.2em;text-align: left\">
-看著三間比鄰而居的廟宇，連香爐也是互相倚靠著。即使當初大家爭論不休，現在都已經雲淡風輕了。神明的事，果然還是要交給神明去處理。阿嬤說的那番話，確實發人深省。<br><br>
-
-「剩下沒幾個地方了，加緊腳步吧。」我確認了一下地圖，往下一個地點出發。
-
-
-</div></div>
-";
-            echo "<div id=\"headercup-featured\" style = \"margin: 0 300 100 -230;\; background-size: 750px 700px; width: 450px;\">
-                         <class=\"container2\" style = \"margin: 0 100 100 0;\" > 
-                  </div>";
-        echo "</p>                                                                                                                                             
-        <div class=\"container1\" style= \"margin: -100 300 20 -600  \">
-                    <a onClick=\"ShowMeDate()\" class=\"button\">提示</a> 
-                    <a href=\"step6.php\" class=\"button\">下一關!</a>
-        </div>
-        </div>
-";
-        echo "</body></html>";
+		$url  =  "step5y.php" ;
+		echo " <script language = 'javascript'
+			type = 'text/javascript'> ";
+		echo " window.location.href = '$url' ";
+		echo " </script> ";
+	 
     }
     else{
             echo "</p><div class=\"wel2\"><div class=\"container2\" style = \"font-size:4em;margin: 0 300 20 -530\" >輸入錯誤！</div></div>";
