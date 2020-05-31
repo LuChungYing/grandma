@@ -4,6 +4,13 @@
 		　alert("把代碼輸入到google map");
 		}
 </script>
+<?php
+    ini_set("session.use_cookies", "1");
+    ini_set("session.use_only_cookies", "0");
+    ini_set("session.use_trans_sid", "1");
+    session_start();
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
 Design by TEMPLATED

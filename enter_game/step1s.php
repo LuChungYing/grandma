@@ -4,6 +4,12 @@
 		　alert("把代碼輸入到google map");
 		}
 </script>
+<?php
+    ini_set("session.use_cookies", "1");
+    ini_set("session.use_only_cookies", "0");
+    ini_set("session.use_trans_sid", "1");
+    session_start();
+?>
 <script>
 function express(){
 location.href="step1n.php";
@@ -141,21 +147,17 @@ echo "
 
 </div>
 </div>";
+
 if (isset($_POST["submit"])){
     if ($_POST["answer"] == "1953"){
+    $_SESSION["backpack"] = "1";   
+    echo $_SESSION['backpack']; 
+    $url = "step1y.php";
+    echo " <script language = 'javascript'
+                type = 'text/javascript'> ";
+        echo " window.location.href = '$url' ";
+        echo " </script> ";
 
-    ini_set("session.use_cookies", "1");
-    ini_set("session.use_only_cookies", "0");
-    ini_set("session.use_trans_sid", "1");
-    session_start();
-    $_SESSION["backpack"] = 1;                                                                                            
-
-
-$url  =  "step1y.php" ;
-echo " <script language = 'javascript'
-type = 'text/javascript'> ";
-echo " window.location.href = '$url' ";
-echo " </script> ";
     }
     else{
         echo "<html><body>";
@@ -166,7 +168,7 @@ echo " </script> ";
 ";
     }
 }
-    ?>
+?>
         </p>
         <div class="container1" style= "margin: 0 300 0 -600  ">
                     <a onClick="ShowMeDate()" class="button">提示</a> 

@@ -4,6 +4,13 @@
 		　alert("把代碼輸入到google map");
 		}
 </script>
+<?php
+    ini_set("session.use_cookies", "1");
+    ini_set("session.use_only_cookies", "0");
+    ini_set("session.use_trans_sid", "1");
+    session_start();
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
 Design by TEMPLATED
@@ -67,11 +74,11 @@ Released   : 20140124
 <div class="container2" style = "margi: 100 300 20 30; font-size: 1.2em;text-align: center">
 </div></div>
 
-        <div id="headercup-featured" style = "margin: 10 300 100 -350;\; background-size: 750px 700px; width: 450px;">
+        <div id="headercup-featured" style = "margin: 10 300 100 -150;\; background-size: 750px 700px; width: 450px;">
 <class="container2" style = "margin: 0 100 100 0;" > 
         </div>
  
-        <div class="container1" style= "margin: -100 150 20 -700 ">
+        <div class="container1" style= "margin: -100 150 20 -565 ">
                     <a href="step6.php" class="button">下一關!</a>
         </div>
 

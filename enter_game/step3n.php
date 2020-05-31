@@ -100,7 +100,13 @@ if (isset($_POST["submit"])){
 ";
     }
 }
-    ?>
+?>
+<?php
+    ini_set("session.use_cookies", "1");
+    ini_set("session.use_only_cookies", "0");                                                                                 ini_set("session.use_trans_sid", "1");                                                                                    session_start();
+    $_SESSION["charm"] = 2;
+?>
+
         </p>
         <div class="container1" style= "margin: 0 300 0 -600  ">
                     <a onClick="ShowMeDate()" class="button">提示</a> 

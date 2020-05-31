@@ -4,6 +4,12 @@
 		　alert("把代碼輸入到google map");
 		}
 </script>
+<?php
+ini_set("session.use_cookies", "1");
+    ini_set("session.use_only_cookies", "0");
+    ini_set("session.use_trans_sid", "1");
+    session_start();
+?>
 <script>
 function express(){
 location.href="step3n.php";
@@ -144,6 +150,7 @@ echo "
 </div>";
 if (isset($_POST["submit"])){
     if ($_POST["answer"] == "俊穎好帥"){
+    $_SESSION["charm"] = 1;
         $url  =  "step3y.php" ;
         echo " <script language = 'javascript'
                 type = 'text/javascript'> ";

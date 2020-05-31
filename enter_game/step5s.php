@@ -2,7 +2,13 @@
 		function ShowMeDate() {
 		　var Today=new Date();
 		　alert("把代碼輸入到google map");
-		}
+        }
+    <?php
+        ini_set("session.use_cookies", "1");
+    ini_set("session.use_only_cookies", "0");
+    ini_set("session.use_trans_sid", "1");
+    session_start();
+?>
 </script>
 <script>
 function express(){
@@ -115,7 +121,7 @@ Released   : 20140124
         var Check_i = document.getElementById(\"Check_i\");
         var Cal_Minute = Math.floor(Math.floor(set % 3600) / 60);
         var Cal_Second = set % 60;
-        if( Cal_Second > 50 ){
+        if( Cal_Second > 61 ){
             express();
             return;
         }
@@ -126,18 +132,32 @@ Released   : 20140124
     </script>";
 
     echo "<html><body>";
-    echo "<div id=\"wel2\">
+    echo "<div id=\"wel2\" style = \" height : 450px\">
     <div class=\"container2\">
-「『三天 中壇元帥』似乎分別隱藏在對聯的同一個位置，只要排出來了，應該就知道對聯的真正順序了。」
+「『三天 中壇元帥』似乎分別隱藏在對聯的同一個位置，只要排出來了，應該就知道對聯的真正順序了。」<br><br>
 
+1. □ 德昭彰揚清永卓漢旌旗<br><br>
+
+2. □ 通三界先鋒威赫耀天神<br><br>
+
+3. □ 佑黎民福蔭蓬萊消浩劫<br><br>
+
+4. □ 功浩蕩激濁長持周劍印<br><br>
+
+5. □ 蘇萬類恩沾前鎮錫鴻庥<br><br>
+
+6. □ 鎮五方元帥指揮嚴法令<br><br>
+註：
+旌(ㄐㄧㄥ)
+庥(ㄒㄧㄡ)
 </div></div>
 "
     ;
 echo "
 <wel>
-<div class=\"container\" style = \"margin: 100 300 20 20\" >
+<div class=\"container\" style = \"margin: 30 300 20 20\" >
     <form method=\"post\">
-　      正確的順序是(神秘數字: 342561): <input type=\"test\" name=\"answer\">
+　      正確的順序是: <input type=\"test\" name=\"answer\">
         <input type=\"submit\" name=\"submit\" value=\"submit\">
     </form>
 
@@ -145,6 +165,7 @@ echo "
 </div>";
 if (isset($_POST["submit"])){
     if ($_POST["answer"] == "342561"){
+    $_SESSION["cup"] = 1; 
 		$url  =  "step5y.php" ;
 		echo " <script language = 'javascript'
 			type = 'text/javascript'> ";

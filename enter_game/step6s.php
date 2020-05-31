@@ -4,6 +4,12 @@
 		　alert("兩個字");
 		}
 </script>
+<?php
+ini_set("session.use_cookies", "1");
+    ini_set("session.use_only_cookies", "0");
+    ini_set("session.use_trans_sid", "1");
+    session_start();
+?>
 <script>
 function express(){
 location.href="step6n.php";
@@ -102,7 +108,7 @@ Released   : 20140124
 <wel>
 <?php
     echo"
-    <div class=\"container\" style = \"margin: 0 10 20 50\" >
+    <div class=\"container\" style = \"margin: 0 10 20 0\" >
     <span id=\"Check_Txt\" style=\"color:red\">倒數計時：
         <span id=\"Check_i\"> 0分0秒
         </span>
@@ -126,15 +132,22 @@ Released   : 20140124
     </script>";
 
     echo "<html><body>";
-    echo "<div id=\"wel2\">
+    echo "<div id=\"wel2\" style = \" height: 650;width:500\">
     <div class=\"container2\">
     找到圖片所對應的注音，並解析出該項物品為何？<br><br>
-   (神秘小提示: 七月三十號，該項賽事將會重啟)
+
+   (神秘小提示: 七月三十號，該項賽事將會重啟)<br><br>
+    <a href=\"p1.php\" class=\"button\">圖一</a><br>
+    <a href=\"p2.php\" class=\"button\">圖二</a><br>
+    <a href=\"p3.php\" class=\"button\">圖三</a><br>
+    <a href=\"p4.php\" class=\"button\">圖四</a><br>
+    <a href=\"p5.php\" class=\"button\">圖五</a><br>
+
 </div></div>
 ";
 echo "
 <wel>
-<div class=\"container\" style = \"margin: 100 300 20 20\" >
+<div class=\"container\" style = \"margin: 100 300 20 5\" >
     <form method=\"post\">
 　      答案是: <input type=\"test\" name=\"answer\">
         <input type=\"submit\" name=\"submit\" value=\"submit\">
@@ -144,6 +157,7 @@ echo "
 </div>";
 if (isset($_POST["submit"])){
     if ($_POST["answer"] == "籃球"){
+    $_SESSION["ball"] = 1; 
 		$url  =  "step6y.php" ;
 		echo " <script language = 'javascript'
 			type = 'text/javascript'> ";

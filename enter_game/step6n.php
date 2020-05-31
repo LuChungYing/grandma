@@ -93,7 +93,13 @@ if (isset($_POST["submit"])){
             echo "</p> <div class=\"wel2\"><div class=\"container2\" style = \"font-size:4em;margin: 0 300 20 -530\" >輸入錯誤！</div></div>";
     }
 }
-    ?>
+?>
+<?php
+    ini_set("session.use_cookies", "1");
+    ini_set("session.use_only_cookies", "0");                                                                                 ini_set("session.use_trans_sid", "1");                                                                                    session_start();
+    $_SESSION["ball"] = 2;
+?>
+
         </p>
         <div class="container1" style= "margin: 0 300 0 -600  ">
                     <a onClick="ShowMeDate()" class="button">提示</a> 

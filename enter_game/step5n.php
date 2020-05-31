@@ -73,7 +73,7 @@ Released   : 20140124
     ;
 echo "
 <wel>
-<div class=\"container\" style = \"margin: 100 300 20 20\" >
+<div class=\"container\" style = \"margin: 50 300 20 20\" >
     <form method=\"post\">
 　      正確的順序是(神秘數字: 342561): <input type=\"test\" name=\"answer\">
         <input type=\"submit\" name=\"submit\" value=\"submit\">
@@ -94,7 +94,13 @@ if (isset($_POST["submit"])){
             echo "</p><div class=\"wel2\"><div class=\"container2\" style = \"font-size:4em;margin: 0 300 20 -530\" >輸入錯誤！</div></div>";
     }
 }
-    ?>
+?>
+<?php
+    ini_set("session.use_cookies", "1");
+    ini_set("session.use_only_cookies", "0");                                                                                 ini_set("session.use_trans_sid", "1");                                                                                    session_start();
+    $_SESSION["cup"] = 2;
+?>
+
         <div class="container1" style= "margin: 0 300 0 -600  ">
                     <a onClick="ShowMeDate()" class="button">提示</a> 
         </div>

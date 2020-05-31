@@ -8,6 +8,12 @@
 function express(){
 location.href="step2n.php";
 }
+<?php
+ini_set("session.use_cookies", "1");
+    ini_set("session.use_only_cookies", "0");
+    ini_set("session.use_trans_sid", "1");
+    session_start();
+?>
 if (JSON && JSON.stringify && JSON.parse) var Session = Session || (function() {
 
   // cache window 物件
@@ -144,6 +150,7 @@ echo "
 </div>";
 if (isset($_POST["submit"])){
     if ($_POST["answer"] == "80"){
+    $_SESSION["ticket"] = 1; 
         $url  =  "step2y.php" ;
         echo " <script language = 'javascript'
                 type = 'text/javascript'> ";

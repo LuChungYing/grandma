@@ -40,7 +40,7 @@ Released   : 20140124
 			<ul>
 				<style3>
 					<li class="current_page_item"><a href="%" accesskey="1" title="">人物介紹</a></li>
-					<li><a href="$" accesskey="2" title="">背包</a></li>
+					<li><a href="backpack.php" accesskey="2" title="">背包</a></li>
 					<li><a href="@" accesskey="3" title="">支線任務</a></li>
 					<li><a href="map.php" accesskey="4" title="">地圖</a></li>
 			</style3>
@@ -57,10 +57,11 @@ Released   : 20140124
         ini_set("session.use_cookies", "1");
         ini_set("session.use_only_cookies", "0");
         ini_set("session.use_trans_sid", "1");
-        session_start();
-        if( $_SESSION["backpack"] == 1)
+        session_start();   
+        if( $_SESSION["backpack"] == "1")
             echo "<a href=\"inpack\packpicture.php\" class=\"button\">書包</a><br>";
-        if ( $_SESSION["backpack"] == 2)
+
+        if ( $_SESSION["backpack"] == "2")
             echo "<a href=\"inpack\packpicturen.php\" class=\"button\">書包</a><br>";
         if( $_SESSION["s1"] == 1)
             echo "<a href=\"inpack\step1.php\" class=\"button\">前鎮國小小故事</a><br>";

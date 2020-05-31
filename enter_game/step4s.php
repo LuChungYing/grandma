@@ -4,6 +4,12 @@
 		　alert("把代碼輸入到google map");
 		}
 </script>
+<?php
+ini_set("session.use_cookies", "1");
+    ini_set("session.use_only_cookies", "0");
+    ini_set("session.use_trans_sid", "1");
+    session_start();
+?>
 <script>
 function express(){
 location.href="step4n.php";
@@ -141,7 +147,7 @@ Released   : 20140124
     ;
 echo "
 <wel>
-<div class=\"container\" style = \"margin: 150 300 20 20\" >
+<div class=\"container\" style = \"margin: 200 300 20 20\" >
     <form method=\"post\">
 　      你算出來了嗎: <input type=\"test\" name=\"answer\">
         <input type=\"submit\" name=\"submit\" value=\"submit\">
@@ -151,6 +157,7 @@ echo "
 </div>";
 if (isset($_POST["submit"])){
     if ($_POST["answer"] == "13"){
+    $_SESSION["bag"] = 1;
 		$url  =  "step4y.php" ;
 		echo " <script language = 'javascript'
 			type = 'text/javascript'> ";
