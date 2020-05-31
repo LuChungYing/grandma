@@ -60,31 +60,12 @@ Released   : 20140124
 	<div class="container1" style = "text-align: center" >
 <wel>
 <?php
-    echo"
-    <div class=\"container\" style = \"margin: 0 500 20 20\" >
-    <span id=\"Check_Txt\" style=\"color:red\">倒數計時：
-        <span id=\"Check_i\"> 0分0秒
-        </span>
-        </span>
-    </div>
-<script type=\"text/javascript\">
-    var SetMinute = 0;
-    function Check_Time() {
-        SetMinute += 1;
-        var Check_i = document.getElementById(\"Check_i\");
-
-        var Cal_Minute = Math.floor(Math.floor(SetMinute % 3600) / 60);
-        var Cal_Second = SetMinute % 60;
-        if( Cal_Minute > 5 ){
-            express();
-            return;
-        }
-        Check_i.innerHTML =  + Cal_Minute + \"分\" + Cal_Second + \"秒\";
-    }
-    var mm = window.setInterval(\"Check_Time()\", 1000);
-</script>";
-    echo "<html><body>";
+   echo "<html><body>";
     echo "<div id=\"wel2\">
+    <div class=\"container2\" style=\"color:red\" >
+   !!! 時間已經到了喔 你們錯失了拿到提示的大好機會 請進快解出答案!!!<br><br>
+    </div>
+
     <div class=\"container2\" >
     這一關還沒有想到題目，請在下方輸入\"俊穎好帥\"以過關:)
 </div></div>
@@ -102,36 +83,13 @@ echo "
 </div>";
 if (isset($_POST["submit"])){
     if ($_POST["answer"] == "俊穎好帥"){
-    echo "<html><body>";
-    echo "<div id=\"wel2\">
-    <div class=\"container2\" style = \"margin: 10 300 20 -530; font-size: 1.2em;text-align: left\">
-「這裡主要供奉的是關聖帝君，又稱文衡聖帝。樓上佛祖殿則是供奉觀音佛祖。」一旁的阿姨跟我說。<br><br>
+        $url  =  "step3y.php" ;
+		echo " <script language = 'javascript'
+			type = 'text/javascript'> ";
+		echo " window.location.href = '$url' ";
+		echo " </script> ";
+	 
 
-「你是管區嬤的孫子吧？她最近還好嗎？」\"管區嬤\"是阿嬤上了年紀後，大家對她的暱稱。因為她就像個管區，前鎮的大小事幾乎都仰賴她的協助。<br><br>
-
-「妳是以前常常跟他吵架的主委！」我猛地認了出來，原來她還在這邊服務。「妳不是和她關係不好嗎？怎麼突然關心起她了？」<br><br>
-
-「那是後來的事啦，其實我們以前是情同姊妹的好朋友，但在我們兩個跟隨了不同的神明之後，關係就越來越差了，我心裡一直很想跟她和好，甚至準備了一個關聖帝君的護身符要給她，只是後來一直沒有機會開口，想來就覺得可惜呀。」<br><br>
-
-我簡單地和她說明了阿嬤現在的狀況，也告訴她我怎麼會突然來到這裡，她聽著聽著，表情也變得沒那麼輕鬆。<br><br>
-
-「沒想到那時人稱前鎮一抹紅的她竟然會淪落到這樣……護身符你就帶回去給她吧，一定要好好珍惜跟她相處的時光。」<br><br>
-
-我收下了主委阿姨的叮嚀，趕緊將下一個代號輸入google地圖。<br><br>
-
-</div></div>
-";
-            echo "<div id=\"headercharm-featured\" style = \"margin: 450 300 100 -230;\; background-size: 750px 700px; width: 450px;\">
-                         <class=\"container2\" style = \"margin: 0 100 100 0;\" > 
-                  </div>";
-        echo "</p>                                                                                                                                             
-        <div class=\"container1\" style= \"margin: -100 300 20 -600  \">
-                    <a onClick=\"ShowMeDate()\" class=\"button\">提示</a> 
-                    <a href=\"step4.php\" class=\"button\">下一關!</a>
-        </div>
-        </div>
-";
-        echo "</body></html>";
     }
     else{
         echo "<html><body>";

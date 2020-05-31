@@ -60,31 +60,11 @@ Released   : 20140124
 	<div class="container1" style = "text-align: center" >
 <wel>
 <?php
-    echo"
-    <div class=\"container\" style = \"margin: 0 500 20 20\" >
-    <span id=\"Check_Txt\" style=\"color:red\">倒數計時：
-        <span id=\"Check_i\"> 0分0秒
-        </span>
-        </span>
-    </div>
-<script type=\"text/javascript\">
-    var SetMinute = 0;
-    function Check_Time() {
-        SetMinute += 1;
-        var Check_i = document.getElementById(\"Check_i\");
-
-        var Cal_Minute = Math.floor(Math.floor(SetMinute % 3600) / 60);
-        var Cal_Second = SetMinute % 60;
-        if( Cal_Minute > 5 ){
-            express();
-            return;
-        }
-        Check_i.innerHTML =  + Cal_Minute + \"分\" + Cal_Second + \"秒\";
-    }
-    var mm = window.setInterval(\"Check_Time()\", 1000);
-</script>";
     echo "<html><body>";
     echo "<div id=\"wel2\">
+    <div class=\"container2\" style=\"color:red\" >
+        !!! 時間已經到了喔 你們錯失了拿到提示的大好機會 請進快解出答案!!!<br><br>
+    </div>
     <div class=\"container2\" style=\"text-align:left\">
 「好，我們現在要去的菜市場的基地，以前是用煉鋁的廢土填成的，你知道鋁的原子序是多少嗎？」<br>     <br>
 
@@ -108,38 +88,12 @@ echo "
 </div>";
 if (isset($_POST["submit"])){
     if ($_POST["answer"] == "13"){
-    echo "<html><body>";
-    echo "<div id=\"wel2\">
-    <div class=\"container2\" style = \"margin: 10 300 20 -530; font-size: 1.2em;text-align: left\">
-「對了，是13。阿嬤到底怎麼連元素週期都懂……」我自顧自地說著。<br><br>
-
-「這不是管區嬤的孫子嗎？管區嬤最近好不好呀？」出聲的是九九香腸的老闆兒子，他和我一樣，也算是半個北漂青年。當初在竹科工作，結果遇上金融風暴，被放了很久的無薪假，正好思考了一下關於家業這回事，於是就回來接老闆的衣缽了。<br><br>
-
-「好久不見了，蔡大哥，最近生意好嗎？」<br><br>
-
-「還是老樣子，普普通通啦。」<br><br>
-
-畢竟有著相似的經歷，年紀又差不多，我和蔡大哥一直都蠻有話聊的。我和他互相寒暄了一番，也順帶解釋了我突然回來的原因，他聽完之後，嘆了很深的一口氣。<br><br>
-
-「管區嬤和大家都是好朋友，只是她最近越來越少來這邊，大家也都很擔心她。你要幫我們好好照顧她，知道嗎？」<br><br>
-
-我聽著蔡大哥說的，心裡有些內疚。這幾年待在台北的我，疏忽了太多家人的狀況，也怠惰了家人互相照顧的職責，阿嬤現在的狀態，又讓我更多了一些自責感。<br><br>
-
-「蔡大哥，我還有事情，先走一步了。」簡單告別後，我匆匆離開了菜市場。
-
-</div></div>
-";
-            echo "<div id=\"headerbag-featured\" style = \"margin: 500 300 100 -230;\; background-size: 750px 700px; width: 450px;\">
-                         <class=\"container2\" style = \"margin: 0 100 100 0;\" > 
-                  </div>";
-        echo "</p>                                                                                                                                             
-        <div class=\"container1\" style= \"margin: -100 300 20 -600  \">
-                    <a onClick=\"ShowMeDate()\" class=\"button\">提示</a> 
-                    <a href=\"step5.php\" class=\"button\">下一關!</a>
-        </div>
-        </div>
-";
-        echo "</body></html>";
+        $url  =  "step4y.php" ;
+		echo " <script language = 'javascript'
+			type = 'text/javascript'> ";
+		echo " window.location.href = '$url' ";
+		echo " </script> ";
+	 
     }
     else{
         echo "</p>         
