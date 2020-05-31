@@ -110,7 +110,7 @@ Released   : 20140124
     </div>
     <script type=\"text/javascript\">
     function Check_Time() {
-        var set = Session.get(\"M\")|| 0;
+        var set = Session.get(\"M2\")|| 0;
         set += 1;
         var Check_i = document.getElementById(\"Check_i\");
         var Cal_Minute = Math.floor(Math.floor(set % 3600) / 60);
@@ -119,7 +119,7 @@ Released   : 20140124
             express();
             return;
         }
-        Session.set(\"M\",set);
+        Session.set(\"M2\",set);
         Check_i.innerHTML =  + Cal_Minute + \"分\" + Cal_Second + \"秒\";
     }
     var mm = window.setInterval(\"Check_Time()\", 1000);
