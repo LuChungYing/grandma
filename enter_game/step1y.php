@@ -61,13 +61,6 @@ Released   : 20140124
 牽著我，深怕我走丟的心情從掌心流露。<br><br>
 「我已經多久沒牽阿嬤的手了呢？」<br><br>
 我一邊心裡想著，一邊把第二個代碼輸進google地圖。<br><br></div>
-<?php
-    ini_set("session.use_cookies", "1");
-    ini_set("session.use_only_cookies", "0");
-    ini_set("session.use_trans_sid", "1");
-    session_start();
-    $_SESSION["backpack"] = 1;
-?>
 <div class="container2" style = "margin: 100 300 20 30; font-size: 1.2em;text-align: center">
 </div></div>
             <div id="header1-featured" style = "margin: -100 300 100 150; background-size: 750px 700px; width: 500px;">

@@ -144,6 +144,13 @@ echo "
 if (isset($_POST["submit"])){
     if ($_POST["answer"] == "1953"){
 
+    ini_set("session.use_cookies", "1");
+    ini_set("session.use_only_cookies", "0");
+    ini_set("session.use_trans_sid", "1");
+    session_start();
+    $_SESSION["backpack"] = 1;                                                                                            
+
+
 $url  =  "step1y.php" ;
 echo " <script language = 'javascript'
 type = 'text/javascript'> ";
