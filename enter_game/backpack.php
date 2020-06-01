@@ -57,7 +57,8 @@ Released   : 20140124
         ini_set("session.use_cookies", "1");
         ini_set("session.use_only_cookies", "0");
         ini_set("session.use_trans_sid", "1");
-        session_start();   
+        session_start(); 
+            echo "<a href=\"num.php\" class=\"button\">代碼</a><br>";  
         if( $_SESSION["backpack"] == "1")
             echo "<a href=\"inpack\packpicture.php\" class=\"button\">書包</a><br>";
         if ( $_SESSION["backpack"] == "2")
