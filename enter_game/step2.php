@@ -54,8 +54,7 @@ Released   : 20140124
 <div id="wel">
 	<div class="container1">
         <p style="text-align:left">
-輪渡站 <br><br>
-「前鎮輪渡站？我不知道多久沒來這裡了。」<br><br>
+「我不知道多久沒來這裡了。」<br><br>
 
 前鎮輪渡站雖然可以搭船到旗津，但是船班很少，只有真的有需求的人才會來搭，一般根本不會有遊客。<br><br>
 

@@ -65,7 +65,7 @@ Released   : 20140124
 <p>
 代碼: H8P5+J9<br>
 代碼: H8P4+WH<br>
-代碼: H8Q5+Q5<br>
+代碼: H8Q4+Q5<br>
 代碼: H8R4+9Q<br>
 代碼: H8P6+W8<br>
 代碼: H8P6+VQ<br>

@@ -54,7 +54,7 @@ Released   : 20140124
 <div id="wel">
     <div class="container1" >
 <p style="text-align:left">
-三天宮 <br><br>
+
 吃完甜點的我，在這折磨人的天氣得到一些安慰，趕緊向下個地點出發。 <br><br>
 
 「三天宮，肯定會有這個地點的。」我對於這個地點毫不感到意外，畢竟阿嬤以前就是這裡的主委。<br><br>
