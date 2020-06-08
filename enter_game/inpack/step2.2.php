@@ -24,7 +24,7 @@ Released   : 20140124
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-<link href="../CSS.css" rel="stylesheet" type="text/css" media="all" />
+<link href="CSS.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
@@ -39,30 +39,33 @@ Released   : 20140124
 		<div id="menu">
 			<ul>
 				<style3>
-					<li class="current_page_item"><a href="people.php" accesskey="1" title="">人物介紹</a></li>
-					<li><a href="backpack.php" accesskey="2" title="">背包</a></li>
-					<li><a href="mission.php" accesskey="3" title="">支線任務</a></li>
+					<li class="current_page_item"><a href="%" accesskey="1" title="">人物介紹</a></li>
+					<li><a href="$" accesskey="2" title="">背包</a></li>
+					<li><a href="@" accesskey="3" title="">支線任務</a></li>
 					<li><a href="map.php" accesskey="4" title="">地圖</a></li>
 			</style3>
 			</ul>
 		</div>
 	</div>
 </div>
-</div>
 <div id="header-featured">
-    <div id="banner" class="container"> </div>
+	<div id="banner" class="container"> </div>
 </div>
 <div id="wel">
-    <div class="container1" style = "text-align: center" >                                                                                                                                                  
+	<div class="container1">
+        <p style="text-align:left">
+輪渡站 <br><br>
+前鎮輪渡站於民國44年開始試辦前鎮到中洲航線，以汽艇試航。當時航道淤塞
+未浚，船隻時而擱淺；因民營汽艇參與航運，高雄市公共車船管理處乃停航，
+純由民間經營。<br>
+民國62年9月3日早上，從旗津中洲渡輪站搭乘舢板船「高中六號」，橫渡高雄
+港到前鎮渡輪站途中，因船艙破裂而浸水翻船，乘客中有25位女乘客是由旗津
+中洲到前鎮加工上班區的員工，全數罹難。<br>
+此事件導致輿論譁然，政府也因此加速中洲前鎮航線的籌備，並於民國63年改
+回政府接收，啟用渡輪，正式營運航線。<br>
 <wel>
-    <html><body>
-    <div id="wel2">
-    <div class="container2" style = "margin: 10 300 20 30; font-size: 1.2em;text-align: left">
-<div class="container2" style = "margin: 100 300 20 30; font-size: 1.2em;text-align: center">
-</div></div>
-            <div id="header12-featured" style = "margin: -250 300 100 150; background-size: 750px 700px; width: 500px;">
-                         <class="container2" style = "margin: 0 100 100 0;" > 
-                  </div>
+
+
 </div>
 </body>
 </html>

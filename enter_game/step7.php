@@ -63,5 +63,23 @@ Released   : 20140124
 
 突然，我發現船票裡的字有些怪怪的。「這是什麼意思？」茄芷袋、筊杯上也都有奇怪的字，難道這才是阿嬤要我去這些地方的目的？<br><br>
 
+物品上的語句看起來很沒有邏輯，不過好像還是有一定的順序。用通順的語意組合起
+來，應該就知道是什麼意思了。<br><br>
+
+物品上面沒有提示怎麼辦？<br><br>
+哈哈 誰叫你們沒有在關卡的限定時間內解完題目<br><br>
+好啦 沒有關係 給你們補救的辦法 只要看完個地點的地方歷史介紹 然後回答問題 就可以得到有提示的物品了喔<br><br>
+<?php
+        ini_set("session.use_cookies", "1");
+        ini_set("session.use_only_cookies", "0");
+        ini_set("session.use_trans_sid", "1");
+        session_start();
+        echo "<a href=\"step1c.php\" class=\"button\">前鎮國小小測驗</a><br>";
+        echo "<a href=\"step2c.php\" class=\"button\">渡輪站小測驗</a><br>";
+        echo "<a href=\"step3c.php\" class=\"button\">鎮南宮小小測驗</a><br>";
+        echo "<a href=\"step4c.php\" class=\"button\">銀座街小測驗</a><br>";
+        echo "<a href=\"step5c.php\" class=\"button\">三天宮小測驗</a><br>";
+        echo "<a href=\"step6c.php\" class=\"button\">興仁公園小測驗</a><br>";
+?>
 </body>
 </html>

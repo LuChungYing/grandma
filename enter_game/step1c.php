@@ -4,6 +4,18 @@
 		　alert("把代碼輸入到google map");
 		}
 </script>
+<?php
+    ini_set("session.use_cookies", "1");
+    ini_set("session.use_only_cookies", "0");
+    ini_set("session.use_trans_sid", "1");
+    session_start();
+?>
+
+<script>
+function express(){
+location.href="step1n.php";
+}
+</script> 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
 Design by TEMPLATED
@@ -24,7 +36,7 @@ Released   : 20140124
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-<link href="../CSS.css" rel="stylesheet" type="text/css" media="all" />
+<link href="CSS.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
@@ -48,21 +60,31 @@ Released   : 20140124
 		</div>
 	</div>
 </div>
-</div>
 <div id="header-featured">
-    <div id="banner" class="container"> </div>
+	<div id="banner" class="container"> </div>
 </div>
 <div id="wel">
-    <div class="container1" style = "text-align: center" >                                                                                                                                                  
-<wel>
-    <html><body>
-    <div id="wel2">
-    <div class="container2" style = "margin: 10 300 20 30; font-size: 1.2em;text-align: left">
-<div class="container2" style = "margin: 100 300 20 30; font-size: 1.2em;text-align: center">
-</div></div>
-            <div id="header12-featured" style = "margin: -250 300 100 150; background-size: 750px 700px; width: 500px;">
-                         <class="container2" style = "margin: 0 100 100 0;" > 
-                  </div>
+	<div class="container1" style = "text-align: left" >
+        <p>
+前鎮國小 <br>
+<br><br>
+前鎮國小校園內自日治時期邊留存至今的兩棵樹為什麼樹？<br><br>
+A. 榕樹 B. 木麻黃 C. 木棉樹 D. 影分身之樹
+<br><br>
+<form method="post">
+　      你的答案是？: <input type="test" name="answer">
+        <input type="submit" name="submit" value="submit">
+</form>
+<?php
+if (isset($_POST["submit"])){
+    if ($_POST["answer"] == "C" || $_POST["answer"] == "c"){
+        $_SESSION["backpack"] = "1";
+        echo "<html><body>";
+        echo "正確！ 請到背包裡查看已有提示的物品";
+        echo "</body></html>";
+    }
+?>
+</div>
 </div>
 </body>
 </html>

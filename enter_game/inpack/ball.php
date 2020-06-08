@@ -60,7 +60,7 @@ Released   : 20140124
     <div class="container2" style = "margin: 10 300 20 30; font-size: 1.2em;text-align: left">
 <div class="container2" style = "margin: 100 300 20 30; font-size: 1.2em;text-align: center">
 </div></div>
-            <div id="headerball-featured" style = "margin: -200 300 100 150; background-size: 750px 700px; width: 600px;">
+            <div id="headerball2-featured" style = "margin: -200 300 100 150; background-size: 750px 700px; width: 600px;">
                          <class="container2" style = "margin: 0 100 100 0;" >
                   </div>
 </div>

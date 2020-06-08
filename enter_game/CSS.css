@@ -634,6 +634,48 @@ ul.contact li a.icon-rss:before
         background-size: 600px 600px;
         border-bottom: 8px solid #45543D;
     }
+#header12-featured
+    {
+        padding: 8em 1em;
+        background-image: url(images/pack2.png);
+        background-position: left;
+        background-size: 650px 600px;
+    }
+#header22-featured
+    {
+        padding: 8em 1em;
+        background-image: url(images/ticket2.png);
+        background-position: left;
+        background-size: 400px 350px;
+    }
+#headerbag2-featured
+    {
+        padding: 8em 1em;
+        background-image: url(images/bag2.png);
+        background-position: left;
+        background-size: 400px 350px;
+    }
+#headercup2-featured
+    {
+        padding: 8em 1em;
+        background-image: url(images/cup2.png);
+        background-position: left;
+        background-size: 400px 350px;                                                                                                                                                                       
+    }
+#headerball2-featured
+    {
+        padding: 8em 1em;
+        background-image: url(images/ball2.png);
+        background-position: left;
+        background-size: 400px 350px;                                                                                                                    
+    }
+#headercharm2-featured
+    {
+        padding: 8em 1em;
+        background-image: url(images/charm2.png);
+        background-position: left;
+        background-size: 400px 350px;
+    }
 
 
 
