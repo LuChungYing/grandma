@@ -626,13 +626,13 @@ ul.contact li a.icon-rss:before
         background-size: 1600px 1000px;
         border-bottom: 8px solid #45543D;
     }
-    #headermap6-featured
+#headermap6-featured
     {
-        padding: 8em 37em;
+        padding: 8em 30em;
         background-image: url(images/map6.jpg);
         background-position: left;
-        background-size: 600px 600px;
-        border-bottom: 8px solid #45543D;
+        background-repeat:no-repeat;
+        background-size: 450px 450px;
     }
 
 
@@ -1089,7 +1089,7 @@ ul.contact li a.icon-rss:before
 
 #wel
 {
-	padding: 5em 37.2em;
+	padding: 4em 40em;
 	background: #E8E7C1;
 	text-align: center;
 }

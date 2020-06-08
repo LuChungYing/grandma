@@ -67,7 +67,6 @@ Released   : 20140124
     </div>
     <div class=\"container2\">
     找到圖片所對應的注音，並解析出該項物品為何？<br><br>
-   (神秘小提示: 七月三十號，該項賽事將會重啟)<br><br>
 
     
     <a href=\"map6.php\" class=\"button\">地圖</a><br><a href=\"p1.php\" class=\"button\">圖一</a><br><a href=\"p2.php\" class=\"button\">圖二</a><br><a href=\"p3.php\" class=\"button\">圖三</a><br><a href=\"p4.php\" class=\"button\">圖四</a><br><a href=\"p5.php\" class=\"button\">圖五</a><br>
