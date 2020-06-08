@@ -76,8 +76,7 @@ Released   : 20140124
    !!! 時間已經到了喔 你們錯失了拿到提示的大好機會 請進快解出答案!!!<br><br>
     </div>
     <div class=\"container2\">
-「阿嬤說遷校的密碼就是把校門口的海洋生物、壁畫的年輕人、幼
-兒園招牌的小朋友三個相乘。」<br><br>        
+「阿嬤說:遷校的密碼就是把\"校門口的海洋生物\"、\"壁畫的年輕人\"、\"幼兒園招牌的小朋友\"三個相乘。」<br><br>
 </div></div>
 "
     ;
@@ -135,8 +134,5 @@ echo "
 
 
 
-<div id="copyright" class="container">
-	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
-</div>
 </body>
 </html>

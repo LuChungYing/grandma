@@ -104,7 +104,6 @@ Released   : 20140124
 </div>
 <div id="wel">
 	<div class="container1" style = "text-align: center" >
-<wel>
 <?php
     echo"
     <div class=\"container\" style = \"margin: 0 10 20 50\" >
@@ -120,7 +119,7 @@ Released   : 20140124
         var Check_i = document.getElementById(\"Check_i\");
         var Cal_Minute = Math.floor(Math.floor(set % 3600) / 60);
         var Cal_Second = set % 60;
-        if( Cal_Second > 50 ){
+        if( Cal_Second > 600 ){
             express();
             return;
         }
@@ -133,8 +132,7 @@ Released   : 20140124
     echo "<html><body>";
     echo "<div id=\"wel2\">
     <div class=\"container2\">
-「阿嬤說遷校的密碼就是把校門口的海洋生物、壁畫的年輕人、幼
-兒園招牌的小朋友三個相乘。」        
+「阿嬤說:遷校的密碼就是把\"校門口的海洋生物\"、\"壁畫的年輕人\"、\"幼兒園招牌的小朋友\"三個相乘。」        
 </div></div>
 ";
 echo "
@@ -169,8 +167,8 @@ if (isset($_POST["submit"])){
     }
 }
 ?>
-        </p>
-        <div class="container1" style= "margin: 0 300 0 -600  ">
+       </p>
+        <div class="container1" style= "margin: 0 300 0 -650  ">
                     <a onClick="ShowMeDate()" class="button">提示</a> 
         </div>
         </div>
@@ -180,8 +178,5 @@ if (isset($_POST["submit"])){
 
 
 
-<div id="copyright" class="container">
-	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
-</div>
 </body>
 </html>
