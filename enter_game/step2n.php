@@ -81,7 +81,7 @@ echo "
 </div>
 </div>";
 if (isset($_POST["submit"])){
-    if ($_POST["answer"] == "80"){
+    if ($_POST["answer"] == "55"){
         $url  =  "step2y.php" ;
 		echo " <script language = 'javascript'
 			type = 'text/javascript'> ";
