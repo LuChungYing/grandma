@@ -66,10 +66,10 @@ Released   : 20140124
 <div id="wel">
 	<div class="container1" style = "text-align: left" >
         <p>
-前鎮國小 <br>
+渡輪站 <br>
 <br><br>
-前鎮國小校園內自日治時期邊留存至今的兩棵樹為什麼樹？<br><br>
-A. 榕樹 B. 木麻黃 C. 木棉樹 D. 影分身之樹
+前鎮輪渡站的政府渡輪是於何年開始啟用？<br><br>
+A. 民國44年 B. 民國62年 C. 民國63年 D. 民國72年
 <br><br>
 	<div class="container1" style = "margin: 10 10 10 175" >
 <form method="post">
@@ -80,7 +80,7 @@ A. 榕樹 B. 木麻黃 C. 木棉樹 D. 影分身之樹
 <?php
 if (isset($_POST["submit"])){
     if ($_POST["answer"] == "C" || $_POST["answer"] == "c"){
-        $_SESSION["backpack"] = "1";
+        $_SESSION["ticket"] = "1";
         echo "<html><body>";
         echo "<div class=\"container1\" style = \"margin: 10 10 10 200\" >";
         echo "正確！ 請到背包裡查看已有提示的物品";
