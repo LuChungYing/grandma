@@ -59,7 +59,6 @@ Released   : 20140124
 <div id="wel">
 	<div class="container1" style = "text-align: left" >
         <p>
-                                           前鎮國小 <br>
 記得小時候，阿嬤都會來接我上下學，出門前，阿嬤總是再三提醒我：「孫仔，下課
 之後不可以亂跑，要在校門口乖乖等阿嬤喔。」
 <br><br>

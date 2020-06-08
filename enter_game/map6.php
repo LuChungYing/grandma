@@ -30,6 +30,8 @@ Released   : 20140124
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
 </head>
+
+<html>
 <body>
 <div id="header-wrapper">
     <div id="header" class="container">
@@ -48,20 +50,16 @@ Released   : 20140124
         </div>
     </div>
 </div>
-</div>
+
 <div id="header-featured">
     <div id="banner" class="container"> </div>
 </div>
-<div id="wel">
-    <div class="container1" style = "text-align: center" >
-<wel>
-    <html><body>
-    <div id="wel2">
-<div class="container2" style = "margin: 100 300 20 30; font-size: 1.2em;text-align: center">
-</div></div>
-            <div id="headermap6-featured" style = "margin: -320 10 100 -10; width: 0.01; height: 250px;">
-                         <class="container2" style = "margin: 0 100 100 0; width: 40px;">
-                  </div>
+
+<div id="wel" style = "height: 450px">
+
+        <div id="headermap6-featured" style = "margin: 0 500 10 -500; width: 100px; height: 300px;">
+        </div>
+
 </div>
 </body>
 </html>
