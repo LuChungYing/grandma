@@ -40,7 +40,7 @@ Released   : 20140124
 			<ul>
 				<style3>
 					<li class="current_page_item"><a href="%" accesskey="1" title="">人物介紹</a></li>
-					<li><a href="$" accesskey="2" title="">背包</a></li>
+					<li><a href="backpack.php" accesskey="2" title="">背包</a></li>
 					<li><a href="@" accesskey="3" title="">支線任務</a></li>
 					<li><a href="map.php" accesskey="4" title="">地圖</a></li>
 			</style3>
@@ -76,7 +76,7 @@ Released   : 20140124
         session_start();
         echo "<a href=\"step1c.php\" class=\"button\">前鎮國小小測驗</a><br>";
         echo "<a href=\"step2c.php\" class=\"button\">渡輪站小測驗</a><br>";
-        echo "<a href=\"step3c.php\" class=\"button\">鎮南宮小小測驗</a><br>";
+        echo "<a href=\"step3c.php\" class=\"button\">鎮南宮小測驗</a><br>";
         echo "<a href=\"step4c.php\" class=\"button\">銀座街小測驗</a><br>";
         echo "<a href=\"step5c.php\" class=\"button\">三天宮小測驗</a><br>";
         echo "<a href=\"step6c.php\" class=\"button\">興仁公園小測驗</a><br>";

@@ -63,38 +63,50 @@ Released   : 20140124
             echo "<a href=\"inpack\packpicture.php\" class=\"button\">書包</a><br>";
         if ( $_SESSION["backpack"] == "2")
             echo "<a href=\"inpack\packpicturen.php\" class=\"button\">書包</a><br>";
-        if( $_SESSION["s1"] == 1)
+        if( $_SESSION["s1"] == 1){
             echo "<a href=\"inpack\step1.php\" class=\"button\">前鎮國小小故事</a><br>";
+            echo "<a href=\"inpack\step1.2.php\" class=\"button\">前鎮國小介紹</a><br>";
+        }
         if( $_SESSION["ticket"] == 1)
             echo "<a href=\"inpack\\ticket.php\" class=\"button\">船票</a><br>";
         if( $_SESSION["ticket"] == 2)
             echo "<a href=\"inpack\\ticketn.php\" class=\"button\">船票</a><br>";
-        if( $_SESSION["s2"] == 1)
+        if( $_SESSION["s2"] == 1){
             echo "<a href=\"inpack\step2.php\" class=\"button\">輪渡站小故事</a><br>";
+            echo "<a href=\"inpack\step2.2.php\" class=\"button\">輪渡站介紹</a><br>";
+        }
         if( $_SESSION["charm"] == 1)
             echo "<a href=\"inpack\charm.php\" class=\"button\">平安符</a><br>";
         if( $_SESSION["charm"] == 2)
             echo "<a href=\"inpack\charmn.php\" class=\"button\">平安符</a><br>";
-        if( $_SESSION["s3"] == 1)
+        if( $_SESSION["s3"] == 1){
             echo "<a href=\"inpack\step3.php\" class=\"button\">鎮南宮小故事</a><br>";
+            echo "<a href=\"inpack\step3.2.php\" class=\"button\">鎮南宮介紹</a><br>";
+        }
         if( $_SESSION["cup"] == 1)
             echo "<a href=\"inpack\cup.php\" class=\"button\">筊杯</a><br>";
         if( $_SESSION["cup"] == 2)
             echo "<a href=\"inpack\cupn.php\" class=\"button\">筊杯</a><br>";
-        if( $_SESSION["s4"] == 1)
+        if( $_SESSION["s4"] == 1){
             echo "<a href=\"inpack\step4.php\" class=\"button\">三天宮小故事</a><br>";
+            echo "<a href=\"inpack\step4.2.php\" class=\"button\">三天宮介紹</a><br>";
+        }
         if( $_SESSION["bag"] == 1)
             echo "<a href=\"inpack\bag.php\" class=\"button\">茄芷袋</a><br>";
         if( $_SESSION["bag"] == 2)
             echo "<a href=\"inpack\bagn.php\" class=\"button\">茄芷袋</a><br>";
-        if( $_SESSION["s5"] == 1)
+        if( $_SESSION["s5"] == 1){
             echo "<a href=\"inpack\step5.php\" class=\"button\">菜市場小故事</a><br>";
+            echo "<a href=\"inpack\step5.2.php\" class=\"button\">菜市場介紹</a><br>";
+        }
         if( $_SESSION["ball"] == 1)
             echo "<a href=\"inpack\ball.php\" class=\"button\">籃球</a><br>";
         if( $_SESSION["ball"] == 2)
             echo "<a href=\"inpack\balln.php\" class=\"button\">籃球</a><br>";
-        if( $_SESSION["s6"] == 1)
+        if( $_SESSION["s6"] == 1){
             echo "<a href=\"inpack\step6.php\" class=\"button\">興仁公園小故事</a><br>";
+            echo "<a href=\"inpack\step6.2.php\" class=\"button\">興仁公園介紹</a><br>";
+        }
     ?>
 
     </div>
