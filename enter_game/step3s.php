@@ -1,7 +1,7 @@
 <script language="javascript">
 		function ShowMeDate() {
 		　var Today=new Date();
-		　alert("把代碼輸入到google map");
+		　alert("題目要的是神明名字『後面』的那個字");
 		}
 </script>
 <?php

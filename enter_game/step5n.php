@@ -1,7 +1,7 @@
 <script language="javascript">
 		function ShowMeDate() {
 		　var Today=new Date();
-		　alert("把代碼輸入到google map");
+		　alert("答案都是正面的三個門上");
 		}
 </script>
 <script>

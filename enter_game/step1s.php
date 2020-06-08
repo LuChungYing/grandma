@@ -1,7 +1,7 @@
 <script language="javascript">
 		function ShowMeDate() {
 		　var Today=new Date();
-		　alert("把代碼輸入到google map");
+		　alert("警衛室下還有隻鯨魚 壁畫裡不是年輕人的只有一個");
 		}
 </script>
 <?php

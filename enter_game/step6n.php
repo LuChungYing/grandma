@@ -1,7 +1,7 @@
 <script language="javascript">
 		function ShowMeDate() {
 		　var Today=new Date();
-		　alert("兩個字");
+		　alert("兩個字的物品");
 		}
 </script>
 <script>

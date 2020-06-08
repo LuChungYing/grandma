@@ -1,7 +1,7 @@
 <script language="javascript">
 		function ShowMeDate() {
 		　var Today=new Date();
-		　alert("把代碼輸入到google map");
+		　alert("A是兩位數 B是三位數");
 		}
 </script>
 <?php

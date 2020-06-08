@@ -1,7 +1,7 @@
 <script language="javascript">
 		function ShowMeDate() {
 		　var Today=new Date();
-		　alert("把代碼輸入到google map");
+		　alert("要記得當沒有電子票證");
 		}
 </script>
 <script>

@@ -80,6 +80,7 @@ Released   : 20140124
         echo "<a href=\"step4c.php\" class=\"button\">銀座街小測驗</a><br>";
         echo "<a href=\"step5c.php\" class=\"button\">三天宮小測驗</a><br>";
         echo "<a href=\"step6c.php\" class=\"button\">興仁公園小測驗</a><br>";
+        echo "試打看看吧: <input type=\"test\" name=\"answer\">";
 ?>
 </body>
 </html>

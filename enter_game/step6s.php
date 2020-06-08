@@ -1,7 +1,7 @@
 <script language="javascript">
 		function ShowMeDate() {
 		　var Today=new Date();
-		　alert("兩個字");
+		　alert("兩個字的物品");
 		}
 </script>
 <?php
@@ -143,6 +143,8 @@ Released   : 20140124
     <a href=\"p3.php\" class=\"button\">圖三</a><br>
     <a href=\"p4.php\" class=\"button\">圖四</a><br>
     <a href=\"p5.php\" class=\"button\">圖五</a><br>
+    <a href=\"p6.php\" class=\"button\">圖六</a><br>
+    <a href=\"p7.php\" class=\"button\">圖七</a><br>
 
 </div></div>
 ";
