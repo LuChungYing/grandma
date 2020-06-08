@@ -43,7 +43,7 @@ Released   : 20140124
 		</div>
 		<div id="menu">
 			<ul>
-				<style3>
+			<style3>
 					<li class="current_page_item"><a href="people.php" accesskey="1" title="">人物介紹</a></li>
 					<li><a href="backpack.php" accesskey="2" title="">背包</a></li>
 					<li><a href="mission.php" accesskey="3" title="">支線任務</a></li>

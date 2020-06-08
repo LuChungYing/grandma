@@ -60,7 +60,6 @@ Released   : 20140124
 </div>
 <div id="wel">
 	<div class="container1" style = "text-align: center" >
-<wel>
 <?php
     echo "<html><body>";
     echo "<div id=\"wel2\">
@@ -84,4 +83,7 @@ Released   : 20140124
 ";
         echo "</body></html>";
     ?>
-
+    </div>
+</div>
+</body>
+</head>

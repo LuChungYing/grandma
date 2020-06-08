@@ -90,14 +90,14 @@ input {
 .container
 {
 	margin: 0px auto;
-	width: 1200px;
+	width: 1100px;
 }
 
 .container1
 {
 	font-size: 20px;
-	margin: 0 300 20 -600;
-	width: 1200px;
+	margin: 0 10 10 -700;
+    width: 1100px;
 }
 .container2
 {
@@ -1131,7 +1131,7 @@ ul.contact li a.icon-rss:before
 
 #wel
 {
-	padding: 4em 40em;
+	padding: 4em 37em;
 	background: #E8E7C1;
 	text-align: center;
 }

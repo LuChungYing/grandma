@@ -175,7 +175,7 @@ if (isset($_POST["submit"])){
 }
     ?>
         </p>
-        <div class="container1" style= "margin: 0 300 0 -600  ">
+        <div class="container1" style= "margin: 0 300 0 -650  ">
                     <a onClick="ShowMeDate()" class="button">提示</a> 
         </div>
         </div>
@@ -185,8 +185,5 @@ if (isset($_POST["submit"])){
 
 
 
-<div id="copyright" class="container">
-	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
-</div>
 </body>
 </html>

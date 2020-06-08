@@ -55,7 +55,7 @@ Released   : 20140124
     <div id="banner" class="container"> </div>
 </div>
 
-<div id="wel" style = "height: 450px">
+<div id="wel" style = "height: 600px">
 
         <div id="headermap6-featured" style = "margin: 0 500 10 -500; width: 100px; height: 300px;">
         </div>

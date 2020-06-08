@@ -104,7 +104,6 @@ Released   : 20140124
 </div>
 <div id="wel">
 	<div class="container1" style = "text-align: center" >
-<wel>
 <?php
     echo"
     <div class=\"container\" style = \"margin: 0 10 20 50\" >
@@ -120,7 +119,7 @@ Released   : 20140124
         var Check_i = document.getElementById(\"Check_i\");
         var Cal_Minute = Math.floor(Math.floor(set % 3600) / 60);
         var Cal_Second = set % 60;
-        if( Cal_Second > 50 ){
+        if( Cal_Second > 600 ){
             express();
             return;
         }
@@ -168,8 +167,8 @@ if (isset($_POST["submit"])){
     }
 }
 ?>
-        </p>
-        <div class="container1" style= "margin: 0 300 0 -600  ">
+       </p>
+        <div class="container1" style= "margin: 0 300 0 -650  ">
                     <a onClick="ShowMeDate()" class="button">提示</a> 
         </div>
         </div>
@@ -179,8 +178,5 @@ if (isset($_POST["submit"])){
 
 
 
-<div id="copyright" class="container">
-	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
-</div>
 </body>
 </html>
