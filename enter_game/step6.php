@@ -74,7 +74,7 @@ Released   : 20140124
 阿嬤沒想到的是，我這個死小鬼中間就切西瓜，沒跑到鎮榮橋那一段，穿越了公園中間的草坪，直接回到了起點。阿嬤跑得上氣不接下氣，惡狠狠地瞪著略帶驕傲的我。<br><br>
 
 「當年我是從哪裡切西瓜的呢……？」<br><br>
-<wel>
+</div>
 <div class="container" style = "margin: 0 300 20 450" >
 
     <a href="step6s.php" class="button">開始解謎</a>       

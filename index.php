@@ -33,26 +33,17 @@ Released   : 20140124
 		<div id="logo">
 			<h1></span><a href="#">老照片的記憶</a></h1>
 		</div>
-		<div id="menu">
-			<ul>
-				<li class="current_page_item"><a href="%" accesskey="1" title="">人物介紹</a></li>
-				<li><a href="$" accesskey="2" title="">背包</a></li>
-				<li><a href="@" accesskey="3" title="">支線任務</a></li>
-				<li><a href="*" accesskey="4" title="">地圖</a></li>
-			</ul>
-		</div>
 	</div>
 </div>
 <div id="header-featured">
 	<div id="banner" class="container"> </div>
 </div>
-<div id="wel">
-		<a href="enter_game/before.php" class="button">進入遊戲!</a>
+<div id="wel" style="margin:10 10 20 500">
+		<div id="container" style="margin:10 10 20 20">
+            <a href="enter_game/before.php" class="button" >進入遊戲!</a>
+        </div>
 </div>
 
 
-<div id="copyright" class="container">
-	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
-</div>
 </body>
 </html>
