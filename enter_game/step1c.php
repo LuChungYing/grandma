@@ -83,6 +83,7 @@ if (isset($_POST["submit"])){
         echo "正確！ 請到背包裡查看已有提示的物品";
         echo "</body></html>";
     }
+}
 ?>
 </div>
 </div>
