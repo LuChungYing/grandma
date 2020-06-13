@@ -39,9 +39,8 @@ Released   : 20140124
 		<div id="menu">
 			<ul>
 				<style3>
-					<li class="current_page_item"><a href="%" accesskey="1" title="">人物介紹</a></li>
-					<li><a href="$" accesskey="2" title="">背包</a></li>
-					<li><a href="@" accesskey="3" title="">支線任務</a></li>
+					<li class="current_page_item"><a href="people.php" accesskey="1" title="">人物介紹</a></li>
+					<li><a href="backpack.php" accesskey="2" title="">背包</a></li>
 					<li><a href="map.php" accesskey="4" title="">地圖</a></li>
 			</style3>
 			</ul>
@@ -75,7 +74,7 @@ Released   : 20140124
 
 「當年我是從哪裡切西瓜的呢……？」<br><br>
 </div>
-<div class="container" style = "margin: 0 300 20 450" >
+<div class="container" style = "margin: 0 300 20 -700" >
 
     <a href="step6s.php" class="button">開始解謎</a>       
 <?php

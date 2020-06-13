@@ -39,9 +39,8 @@ Released   : 20140124
 		<div id="menu">
 			<ul>
 				<style3>
-					<li class="current_page_item"><a href="%" accesskey="1" title="">人物介紹</a></li>
+					<li class="current_page_item"><a href="people.php" accesskey="1" title="">人物介紹</a></li>
 					<li><a href="backpack.php" accesskey="2" title="">背包</a></li>
-					<li><a href="@" accesskey="3" title="">支線任務</a></li>
 					<li><a href="map.php" accesskey="4" title="">地圖</a></li>
 			</style3>
 			</ul>
@@ -83,21 +82,21 @@ Released   : 20140124
             echo "<a href=\"inpack\step3.php\" class=\"button\">鎮南宮小故事</a><br>";
             echo "<a href=\"inpack\step3.2.php\" class=\"button\">鎮南宮介紹</a><br>";
         }
-        if( $_SESSION["cup"] == 1)
-            echo "<a href=\"inpack\cup.php\" class=\"button\">筊杯</a><br>";
-        if( $_SESSION["cup"] == 2)
-            echo "<a href=\"inpack\cupn.php\" class=\"button\">筊杯</a><br>";
-        if( $_SESSION["s4"] == 1){
-            echo "<a href=\"inpack\step4.php\" class=\"button\">三天宮小故事</a><br>";
-            echo "<a href=\"inpack\step4.2.php\" class=\"button\">三天宮介紹</a><br>";
-        }
         if( $_SESSION["bag"] == 1)
             echo "<a href=\"inpack\bag.php\" class=\"button\">茄芷袋</a><br>";
         if( $_SESSION["bag"] == 2)
             echo "<a href=\"inpack\bagn.php\" class=\"button\">茄芷袋</a><br>";
+        if( $_SESSION["s4"] == 1){
+            echo "<a href=\"inpack\step4.php\" class=\"button\">菜市場小故事</a><br>";
+            echo "<a href=\"inpack\step4.2.php\" class=\"button\">菜市場介紹</a><br>";
+        }
+        if( $_SESSION["cup"] == 1)
+            echo "<a href=\"inpack\cup.php\" class=\"button\">筊杯</a><br>";
+        if( $_SESSION["cup"] == 2)
+            echo "<a href=\"inpack\cupn.php\" class=\"button\">筊杯</a><br>";
         if( $_SESSION["s5"] == 1){
-            echo "<a href=\"inpack\step5.php\" class=\"button\">菜市場小故事</a><br>";
-            echo "<a href=\"inpack\step5.2.php\" class=\"button\">菜市場介紹</a><br>";
+            echo "<a href=\"inpack\step5.php\" class=\"button\">三天宮小故事</a><br>";
+            echo "<a href=\"inpack\step5.2.php\" class=\"button\">三天宮介紹</a><br>";
         }
         if( $_SESSION["ball"] == 1)
             echo "<a href=\"inpack\ball.php\" class=\"button\">籃球</a><br>";

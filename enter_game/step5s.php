@@ -121,7 +121,7 @@ Released   : 20140124
         var Check_i = document.getElementById(\"Check_i\");
         var Cal_Minute = Math.floor(Math.floor(set % 3600) / 60);
         var Cal_Second = set % 60;
-        if( Cal_Second > 61 ){
+        if( Cal_Minute > 2 ){
             express();
             return;
         }

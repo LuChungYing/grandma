@@ -70,11 +70,14 @@ Released   : 20140124
 
     
     <a href=\"map6.php\" class=\"button\">地圖</a><br><a href=\"p1.php\" class=\"button\">圖一</a><br><a href=\"p2.php\" class=\"button\">圖二</a><br><a href=\"p3.php\" class=\"button\">圖三</a><br><a href=\"p4.php\" class=\"button\">圖四</a><br><a href=\"p5.php\" class=\"button\">圖五</a><br>
+<a href=\"p6.php\" class=\"button\">圖六</a><br>
+    <a href=\"p7.php\" class=\"button\">圖七</a><br>
+
 </div></div>
 ";
 echo "
 <wel>
-<div class=\"container\" style = \"margin: 150 300 20 5\" >
+<div class=\"container\" style = \"margin: 450 300 20 5\" >
     <form method=\"post\">
 　      答案是: <input type=\"test\" name=\"answer\">
         <input type=\"submit\" name=\"submit\" value=\"submit\">

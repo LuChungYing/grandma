@@ -122,7 +122,7 @@ Released   : 20140124
         var Check_i = document.getElementById(\"Check_i\");
         var Cal_Minute = Math.floor(Math.floor(set % 3600) / 60);
         var Cal_Second = set % 60;
-        if( Cal_Second > 50 ){
+        if( Cal_Minute > 2 ){
             express();
             return;
         }
@@ -135,9 +135,6 @@ Released   : 20140124
     echo "<html><body>";
     echo "<div id=\"wel2\">
     <div class=\"container2\" style=\"text-align:left\">
-「好，我們現在要去的菜市場的基地，以前是用煉鋁的廢土填成的，你知道鋁的原子序是多少嗎？」<br>     <br>
-
-「這好難欸，阿嬤我不會～」「阿嬤跟你說，跟菜市場有數字的招牌有關喔。」<br><br>
 
 「市場有兩個很大的招牌，一個是\"A\"香腸，另一個是\"B\"超市。首先用B減掉A的7倍，然後再減掉8，最後除以2，就會是答案了。」<br><br>
 

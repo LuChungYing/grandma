@@ -40,7 +40,7 @@ Released   : 20140124
 </div>
 <div id="wel" style="margin:10 10 20 500">
 		<div id="container" style="margin:10 10 20 20">
-            <a href="enter_game/before.php" class="button" >進入遊戲!</a>
+            <a href="enter_game/before.php" class="button" >開始尋回記憶</a>
         </div>
 </div>
 

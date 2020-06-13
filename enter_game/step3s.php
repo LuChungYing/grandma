@@ -121,7 +121,7 @@ Released   : 20140124
         var Check_i = document.getElementById(\"Check_i\");
         var Cal_Minute = Math.floor(Math.floor(set % 3600) / 60);
         var Cal_Second = set % 60;
-        if( Cal_Minute > 3 ){
+        if( Cal_Minute > 2 ){
             express();
             return;
         }
@@ -132,7 +132,10 @@ Released   : 20140124
     </script>";
 
     echo "<html><body>";
-    echo "<div id=\"wel2\">
+echo "<div id=\"wel2\">
+    <p>
+    我實在是記不得鎮南宮供奉的主神名字，幸好這裡的其他神明應該可以給我提示。找
+到廟裡供奉的所有神明名字，組合名字後的那個字就會知道答案了。</p>
     <div class=\"container2\" >
     <div id=\"header3q-featured\" style = \"margin: 0 100 20 200; width : 350; height : 50 \" >
 	<div id=\"banner\" class=\"container\"> </div>
@@ -170,7 +173,7 @@ if (isset($_POST["submit"])){
 }
     ?>
         </p>
-        <div class="container1" style= "margin: 0 300 0 -650  ">
+        <div class="container1" style= "margin: 0 300 0 50  ">
                     <a onClick="ShowMeDate()" class="button">提示</a> 
         </div>
         </div>

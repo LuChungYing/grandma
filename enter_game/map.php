@@ -39,9 +39,8 @@ Released   : 20140124
 		<div id="menu">
 			<ul>
 				<style3>
-					<li class="current_page_item"><a href="%" accesskey="1" title="">人物介紹</a></li>
+					<li class="current_page_item"><a href="people.php" accesskey="1" title="">人物介紹</a></li>
 					<li><a href="$" accesskey="2" title="">背包</a></li>
-					<li><a href="@" accesskey="3" title="">支線任務</a></li>
 					<li><a href="map.php" accesskey="4" title="">地圖</a></li>
 			</style3>
 			</ul>
@@ -54,6 +53,6 @@ Released   : 20140124
 <div id="wel">
 	<div class="container1" style = "padding : 0 -50 0 0">
         <p>
-<img src="images/map" title="map" width="1000px" height="1000px">
+<img src="images/map"width = 1000;>
 </body>
 </html>

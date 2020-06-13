@@ -58,7 +58,7 @@ Released   : 20140124
 		<div id="menu">
 			<ul>
 				<style3>
-					<li class="people.php"><a href="%" accesskey="1" title="">人物介紹</a></li>
+					<li class="current_page_item"><a href="people.php" accesskey="1" title="">人物介紹</a></li>
 					<li><a href="backpack.php" accesskey="2" title="">背包</a></li>
 					<li><a href="map.php" accesskey="4" title="">地圖</a></li>
 			</style3>

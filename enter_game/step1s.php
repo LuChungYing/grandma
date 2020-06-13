@@ -92,7 +92,6 @@ Released   : 20140124
 				<style3>
 					<li class="current_page_item"><a href="people.php" accesskey="1" title="">人物介紹</a></li>
 					<li><a href="backpack.php" accesskey="2" title="">背包</a></li>
-					<li><a href="mission.php" accesskey="3" title="">支線任務</a></li>
 					<li><a href="map.php" accesskey="4" title="">地圖</a></li>
 			</style3>
 			</ul>
@@ -119,7 +118,7 @@ Released   : 20140124
         var Check_i = document.getElementById(\"Check_i\");
         var Cal_Minute = Math.floor(Math.floor(set % 3600) / 60);
         var Cal_Second = set % 60;
-        if( Cal_Second > 600 ){
+        if( Cal_Minute > 2 ){
             express();
             return;
         }

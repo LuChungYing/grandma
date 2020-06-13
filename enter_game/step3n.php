@@ -46,7 +46,6 @@ Released   : 20140124
 				<style3>
 					<li class="current_page_item"><a href="people.php" accesskey="1" title="">人物介紹</a></li>
 					<li><a href="backpack.php" accesskey="2" title="">背包</a></li>
-					<li><a href="mission.php" accesskey="3" title="">支線任務</a></li>
 					<li><a href="map.php" accesskey="4" title="">地圖</a></li>
 			</style3>
 			</ul>
@@ -110,7 +109,7 @@ if (isset($_POST["submit"])){
 ?>
 
         </p>
-        <div class="container1" style= "margin: 0 300 0 -600  ">
+        <div class="container1" style= "margin: 0 300 0 50  ">
                     <a onClick="ShowMeDate()" class="button">提示</a> 
         </div>
         </div>

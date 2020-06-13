@@ -98,20 +98,9 @@ H8P4+WH
                   </div>";
             echo "</body></html>";
 
-            $mysqli = mysqli_connect('localhost', 'root', '','grandma');
-            if (mysqli_connect_errno($mysqli))
-            {
-              echo "connect error " . mysqli_connect_error();
-            }
-            $sql ="UPDATE props SET backpack = 1";
-            $result = mysqli_query($mysqli, $sql);
-            echo "成功放入背包";
     }
 }
     ?>
-		</p>
-                    <a onClick="ShowMeDate()" class="button">提示</a> 
-                    <a href="step2.php" class="button">下一關!</a>
         </div>
 
 	</div>

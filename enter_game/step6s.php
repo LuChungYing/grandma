@@ -121,7 +121,7 @@ Released   : 20140124
         var Check_i = document.getElementById(\"Check_i\");
         var Cal_Minute = Math.floor(Math.floor(set % 3600) / 60);
         var Cal_Second = set % 60;
-        if( Cal_Second > 50 ){
+        if( Cal_Minute > 2  ){
             express();
             return;
         }
@@ -150,7 +150,7 @@ Released   : 20140124
 ";
 echo "
 <wel>
-<div class=\"container\" style = \"margin: 100 300 20 5\" >
+<div class=\"container\" style = \"margin: 400 300 20 5\" >
     <form method=\"post\">
 　      答案是: <input type=\"test\" name=\"answer\">
         <input type=\"submit\" name=\"submit\" value=\"submit\">
