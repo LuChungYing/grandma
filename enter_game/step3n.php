@@ -66,14 +66,16 @@ Released   : 20140124
    !!! 時間已經到了喔 你們錯失了拿到提示的大好機會 請進快解出答案!!!<br><br>
     </div>
 
-    <div class=\"container2\" >
-    這一關還沒有想到題目，請在下方輸入\"俊穎好帥\"以過關:)
-</div></div>
+<div class=\"container2\" >
+    <div id=\"header3q-featured\" style = \"margin: 0 100 20 200; width : 350; height : 50 \" >
+    <div id=\"banner\" class=\"container\"> </div>
+</div>
+</div>
 "
     ;
 echo "
 <wel>
-<div class=\"container\" style = \"margin: 0 300 20 20\" >
+<div class=\"container\" style = \"margin: 300 300 20 -170\" >
     <form method=\"post\">
 　  這裡輸入：   <input type=\"test\" name=\"answer\">
         <input type=\"submit\" name=\"submit\" value=\"submit\">
@@ -82,7 +84,7 @@ echo "
 </div>
 </div>";
 if (isset($_POST["submit"])){
-    if ($_POST["answer"] == "俊穎好帥"){
+    if ($_POST["answer"] == "關聖帝君"){
         $url  =  "step3y.php" ;
 		echo " <script language = 'javascript'
 			type = 'text/javascript'> ";
@@ -94,7 +96,7 @@ if (isset($_POST["submit"])){
     else{
         echo "<html><body>";
     echo "<div id=\"wel2\">
-            <div class=\"container2\" style = \"font-size:4em;margin: 0 300 20 -530\" >輸入錯誤！
+            <div class=\"container2\" style = \"font-size:4em;margin: 0 300 20 0\" >輸入錯誤！
         </div>
 </div>
 ";

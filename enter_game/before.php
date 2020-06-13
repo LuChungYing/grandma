@@ -58,9 +58,8 @@ Released   : 20140124
 		<div id="menu">
 			<ul>
 				<style3>
-					<li class="current_page_item"><a href="%" accesskey="1" title="">人物介紹</a></li>
-					<li><a href="$" accesskey="2" title="">背包</a></li>
-					<li><a href="@" accesskey="3" title="">支線任務</a></li>
+					<li class="people.php"><a href="%" accesskey="1" title="">人物介紹</a></li>
+					<li><a href="backpack.php" accesskey="2" title="">背包</a></li>
 					<li><a href="map.php" accesskey="4" title="">地圖</a></li>
 			</style3>
 			</ul>
@@ -111,19 +110,13 @@ Released   : 20140124
 「既然有地圖，不如把這些代號輸進google地圖試試看？」<br>
 
 <br>
-</p>
-<p>
-代碼: H8P5+J9<br>
-代碼: H8P4+WH<br>
-代碼: H8Q4+Q5<br>
-代碼: H8R4+9Q<br>
-代碼: H8P6+W8<br>
-代碼: H8P6+VQ<br>
-代碼: H8P7+F8<br>
-		</p>
-                    <a href="step1.php" class="button">進入遊戲</a>
+    <div id="banner" class="container"> </div>
+<div id="headermb-featured" style = "width: 350;height: 30; margin: 10 10 10 150">
+<div id="headermap-featured" style = "width: 300;height:40; margin:-150 10 10 450;background-size: 350px 350px;padding: 8em 1em;">
+        
+                    <a href="step0.php" class="button"style = " margin:10 10 10 450;">把第一個代號輸入Google地圖吧</a>
                     </div>
-
+</p>
 	</div>
 </div>
 

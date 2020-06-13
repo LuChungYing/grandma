@@ -528,6 +528,23 @@ ul.contact li a.icon-rss:before
 		background-size: 1600px 1000px;
 		border-bottom: 8px solid #45543D;
 	}
+    #header3q-featured
+    {
+        padding: 8em 1em;
+        background-image: url(images/step3q.png);
+        background-position: left;
+        background-size: 400px 350px;
+    }
+     #headermb-featured
+    {
+        padding: 8em 1em;
+        background-image: url(images/mapback.png);
+        background-position: left;
+        background-size: 400px 350px;
+    }
+
+
+
 #header1-featured
     {
         padding: 8em 1em;
