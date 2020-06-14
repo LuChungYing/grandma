@@ -710,6 +710,13 @@ ul.contact li a.icon-rss:before
         background-position: left;
         background-size: 400px 350px;
     }
+#headergg-featured                                                                                                                                                                                      
+    {
+        padding: 8em 1em;
+        background-image: url(images/gg.jpg);
+        background-position: left;
+        background-size: 400px 350px;
+    }
 
 
 
