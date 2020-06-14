@@ -70,7 +70,7 @@ Released   : 20140124
 我一邊心裡想著，一邊把第二個代碼輸進google地圖。<br><br></div>
 <div class="container2" style = "margin: 100 300 20 30; font-size: 1.2em;text-align: center">
 </div></div>
-            <div id="header1-featured" style = "margin: -100 300 100 150; background-size: 750px 700px; width: 500px;">
+            <div id="header1-featured" style = "margin: 0 300 100 150; background-size: 750px 700px; width: 500px;">
                          <class="container2" style = "margin: 0 100 100 0;" > 
                   </div>
         <div class="container1" style= "margin: -50 150 20 -100 ">
