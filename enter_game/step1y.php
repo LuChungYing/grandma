@@ -63,6 +63,7 @@ Released   : 20140124
     <html><body>
     <div id="wel2">
     <div class="container2" style = "margin: 10 300 20 30; font-size: 1.2em;text-align: left">
+「對了，是1953年。阿嬤說遷校的密碼就是把校門口的海洋生物、壁畫裡的年輕人、幼兒園招牌的小朋友三個相乘。」<br><br>
 我自言自語著。回想當初和阿嬤一起走過回家的路，阿嬤有點粗糙的手，微微用力的
 牽著我，深怕我走丟的心情從掌心流露。<br><br>
 「我已經多久沒牽阿嬤的手了呢？」<br><br>
