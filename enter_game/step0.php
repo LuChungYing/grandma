@@ -55,14 +55,13 @@ Released   : 20140124
 	<div class="container1">
 		<p style="text-align:left">
     !!注意事項!!<br><br>
-1. 要記得補充水分<br><br>
-2. 要到達關卡位置才可以按開始解迷<br><br>
-3. 在時間內解完題目 才可以得到關鍵提示<br><br>
-4. 要時常注意背包是否有新東西 還有裡面的內容
-<br><br>
+    1. 要記得補充水分<br><br>
+    2. 要到達關卡位置才可以按開始解謎<br><br>
+    3. 在時間內解完題目 才可以得到關鍵提示<br><br>
+    4. 要時常注意背包是否有新東西 還有裡面的內容<br><br>
 <br>
         
-                    <a href="step1.php" class="button"style = " margin:0 10 10 450;">進入第一關</a>
+                    <a href="step1.php" class="button"style = " margin:0 10 10 450;">將第一個代號輸入 Google 地圖吧</a>
                     </div>
 </p>
 	</div>
