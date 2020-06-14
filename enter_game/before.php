@@ -115,15 +115,18 @@ Released   : 20140124
 「這是……前鎮國小？不管了，先去看看吧。」<br><br>
 
 
-
-<br>
-    <div id="banner" class="container"> </div>
-<div id="headermb-featured" style = "width: 350;height: 30; margin: 10 10 10 150">
-<div id="headermap-featured" style = "width: 300;height:40; margin:-150 10 10 450;background-size: 350px 350px;padding: 8em 1em;">
-        
-                    <a href="step0.php" class="button"style = " margin:10 10 10 450;">把第一個代號輸入Google地圖吧</a>
-                    </div>
 </p>
+
+    <div id="banner" class="container">
+    </div>
+
+    <div id="headermb-featured" style = "width: 350;height: 30; margin: 10 10 10 150">
+        <div id="headermap-featured" style = "width: 300;height:40; margin:-150 10 10 450;background-size: 350px 350px;padding: 8em 1em;">
+        </div>
+    </div>
+
+    <div>    
+          <a href="step0.php" class="button"style = " margin:70 10 10 0;">把第一個代號輸入Google地圖吧</a>
 	</div>
 </div>
 
