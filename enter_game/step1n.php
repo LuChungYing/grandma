@@ -124,7 +124,7 @@ echo "
     ?>
         </p>
         <div class="container1" style= "margin: 0 300 0 -600  ">
-                    <a href="step2.php" class="button">下一關!</a>
+                    <a href="step2.php" class="button">將下一個代號輸入Google地圖吧</a>
         </div>
         </div>
 

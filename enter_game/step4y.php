@@ -90,7 +90,7 @@ Released   : 20140124
                   </div>
 
         <div class="container1" style= "margin: -100 150 20 0 ">
-                    <a href="step5.php" class="button">下一關!</a>
+                    <a href="step5.php" class="button">將下一個代號輸入Google地圖吧</a>
         </div>
 
 

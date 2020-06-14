@@ -74,7 +74,7 @@ Released   : 20140124
                          <class="container2" style = "margin: 0 100 100 0;" > 
                   </div>
         <div class="container1" style= "margin: -50 150 20 -100 ">
-                  <a href="step2.php" class="button">下一關!</a>
+                  <a href="step2.php" class="button">將下一個代號輸入Google地圖吧</a>
         </div>
 
 </div>

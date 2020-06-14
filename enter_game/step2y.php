@@ -76,7 +76,7 @@ Released   : 20140124
                   </div>";
         echo "                                                                                                                                  
         <div class=\"container1\" style= \"margin: -50 150 20 -100  \">
-                    <a href=\"step3.php\" class=\"button\">下一關!</a>
+                    <a href=\"step3.php\" class=\"button\">將下一個代號輸入Google地圖吧</a>
         </div>
         </div>
 ";
