@@ -89,7 +89,7 @@ Released   : 20140124
                          <class="container2" style = "margin: 0 100 100 0;" > 
                   </div>
         <div class="container1" style= "margin: -150 150 20 -650 ">
-                    <a href="step7.php" class="button">將下一個代號輸入Google地圖吧</a>
+                    <a href="step7.php" class="button">前往興仁國中吧</a>
         </div>
 
 </div>
